@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Factor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\MarchingCubes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\PlyFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\PoissonRecon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\SSDRecon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\bbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\buildTrees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\cellArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\connectivity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\dObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\decimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\deformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\density.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\distance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\editing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\face.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\features.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\geodesicDistance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\gnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\interpolation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\laplacian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\mcfskell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\multiobj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\obj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\pca.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\procedure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\segmentation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\selection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\shapeDiameterFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeletonizationNarrowing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeletonizationNarrowingSparse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\smoothing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\surfaceEditing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\testing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\volume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\volumeFilling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\BSplineData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\BinaryNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Factor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\FunctionData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\MAT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\MarchingCubes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\MemoryUsage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\MultiGridOctreeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\MyTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Octree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\PPolynomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Ply.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\PointStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Polynomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\SparseMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\cellArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\cgal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\dObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\dotObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\geodesicDistance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\lungModelling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\obj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\procedure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\simulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\treeGeneration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\volumeFilling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\include\vox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{27F7977F-34BB-3150-B969-BD458284721F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3944C5E5-EAAA-31A6-98EB-615F6DBDE1D0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

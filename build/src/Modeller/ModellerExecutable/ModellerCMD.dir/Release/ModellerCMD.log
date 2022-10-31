@@ -1,0 +1,11 @@
+﻿cl : command line warning D9002: ignoring unknown option '-std=c++11'
+  _main.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\Clean\avatree\src\Modeller\ModellerExecutable\_main.cpp(439,34): warning C4018: '<': signed/unsigned mismatch
+  ModellerCMD.vcxproj -> E:\Graduation_Project\Clean\avatree\Release\ModellerCMD.exe

@@ -1,0 +1,11 @@
+ObjectType = Image
+NDims = 3
+DimSize = 512 512 442
+BinaryData = True
+ElementNumberOfChannels = 1
+ElementSpacing = 0.78125 0.78125 0.699951
+Offset = -199.391 -184.391 -318.85
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Timestamp = 0
+ElementType = MET_UCHAR
+ElementDataFile = VESSEL12_08_Lungs.raw

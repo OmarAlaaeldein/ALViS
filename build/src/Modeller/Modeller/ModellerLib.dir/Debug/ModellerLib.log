@@ -1,0 +1,1205 @@
+﻿cl : command line warning D9002: ignoring unknown option '-std=c++11'
+  CmdLineParser.cpp
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(45,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(76,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(94,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(110,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(118,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(147,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(159,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(172,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(173,7): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(179,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(180,8): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(192,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(193,7): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(198,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(199,8): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(249,5): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(252,8): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(258,5): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(265,8): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\CmdLineParser.cpp(274,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Factor.cpp
+  Geometry.cpp
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Geometry.cpp(49,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Geometry.cpp(52,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Geometry.cpp(54,3): warning C4996: '_mktemp': This function or variable may be unsafe. Consider using _mktemp_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\Geometry.cpp(55,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MarchingCubes.cpp
+  [WARNING] Not clear if MarchingSquares::edgeMask and MarchingSquares::edges are set correctly
+  PlyFile.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\PlyFile.cpp(255,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\PlyFile.cpp(258,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\PlyFile.cpp(262,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\PlyFile.cpp(875,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\PlyFile.cpp(878,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\PlyFile.cpp(882,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  PoissonRecon.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  SSDRecon.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\MyTime.h(42,2): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  [WARNING] Setting default full depth to 5
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\SSDRecon.cpp(77,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\SSDRecon.cpp(96,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\PoissonRecon\SSDRecon.cpp(114,2): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  adjacency.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(11,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(47,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(52,103): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(52,66): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(53,103): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(53,66): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(54,103): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(54,66): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(56,103): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(56,66): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(57,103): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(57,66): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(58,103): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(58,66): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(67,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(78,104): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(78,67): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(79,104): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(79,67): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(80,104): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(80,67): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(82,104): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(82,67): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(83,104): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(83,67): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(84,104): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(84,67): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(99,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(111,103): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(111,66): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(112,103): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(112,66): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(119,103): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(119,66): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(120,103): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(120,66): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(127,103): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(127,66): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(128,103): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\adjacency.cpp(128,66): warning C4244: 'argument': conversion from 'double' to 'const StorageIndex', possible loss of data
+          with
+          [
+              StorageIndex=int
+          ]
+  analysis.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(38,45): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(84,63): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(85,54): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(491,5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(692,58): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(718,59): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(881,58): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(894,73): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(898,30): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(909,76): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(913,49): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(923,76): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(927,49): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(951,59): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(964,77): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(968,50): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(978,77): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(982,50): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1170,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1272,126): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1272,165): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1272,137): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1333,126): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1333,165): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1333,137): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1476,37): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1479,39): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1526,61): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1546,71): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1573,38): warning C4305: '=': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1607,60): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1949,6): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(1967,7): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(2006,6): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(2024,7): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(2086,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(2121,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\analysis.cpp(3122,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  bbox.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  buildTrees.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\buildTrees.cpp(36,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\buildTrees.cpp(39,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\buildTrees.cpp(189,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\buildTrees.cpp(192,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  cellArray.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  connectivity.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  dObject.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  decimation.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\decimation.cpp(120,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  deformation.cpp
+  density.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  distance.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  editing.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  face.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  Generating Code...
+  Compiling...
+  features.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  geodesicDistance.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\geodesicDistance.cpp(88,30): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  ggraph.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(14,49): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(15,68): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(27,45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(61,49): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(62,68): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(74,45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(101,49): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(137,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(316,115): warning C4244: '=': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(341,71): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(342,76): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(493,126): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(493,165): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(493,137): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(653,9): warning C4804: '>': unsafe use of type 'bool' in operation
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\ggraph.cpp(655,106): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  gnode.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  helper.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\helper.cpp(164,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\helper.cpp(216,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\helper.cpp(225,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\helper.cpp(245,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\helper.cpp(254,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\helper.cpp(268,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\helper.cpp(277,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  interpolation.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\interpolation.cpp(20,35): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\interpolation.cpp(21,35): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\interpolation.cpp(22,35): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+  io.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(5,33): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(14,33): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(20,20): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(183,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(188,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(193,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(199,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(204,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(209,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(214,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(219,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(329,37): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(547,37): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(667,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(672,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(677,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(683,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(688,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(693,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(698,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(703,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(1127,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(1136,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(1330,37): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(1447,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(1452,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(1457,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(1463,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(1468,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(1473,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(1478,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\io.cpp(1483,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  laplacian.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\laplacian.cpp(45,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  mcfskell.cpp
+  multiobj.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\multiobj.cpp(33,57): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\multiobj.cpp(34,55): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  obj.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\obj.cpp(15,98): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\obj.cpp(16,98): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\obj.cpp(17,98): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\obj.cpp(164,44): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\obj.cpp(165,44): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\obj.cpp(166,44): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\obj.cpp(317,25): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\obj.cpp(331,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  pca.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  plane.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  procedure.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  project.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  segmentation.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  selection.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\selection.cpp(12,65): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\selection.cpp(15,25): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\selection.cpp(150,7): warning C4834: discarding return value of function with 'nodiscard' attribute
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\selection.cpp(174,7): warning C4834: discarding return value of function with 'nodiscard' attribute
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\selection.cpp(192,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  shapeDiameterFunction.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  simulation.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  skeleton.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(80,2): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(91,2): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(98,2): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(247,38): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(252,38): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(395,58): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(422,59): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(627,38): warning C4244: '=': conversion from 'const double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(628,38): warning C4244: '=': conversion from 'const double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(629,38): warning C4244: '=': conversion from 'const double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(678,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(683,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeleton.cpp(729,50): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Compiling...
+  skeletonizationNarrowing.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeletonizationNarrowing.cpp(68,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeletonizationNarrowing.cpp(107,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  skeletonizationNarrowingSparse.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeletonizationNarrowingSparse.cpp(39,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeletonizationNarrowingSparse.cpp(89,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeletonizationNarrowingSparse.cpp(98,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeletonizationNarrowingSparse.cpp(242,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\skeletonizationNarrowingSparse.cpp(262,44): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+  smoothing.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\smoothing.cpp(6,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\smoothing.cpp(24,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\smoothing.cpp(98,41): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\smoothing.cpp(110,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\smoothing.cpp(185,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\smoothing.cpp(210,40): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\smoothing.cpp(220,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\smoothing.cpp(257,40): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\smoothing.cpp(267,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\smoothing.cpp(293,42): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+  surfaceEditing.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\surfaceEditing.cpp(59,108): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\surfaceEditing.cpp(189,92): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  testing.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\testing.cpp(70,39): warning C4305: 'argument': truncation from 'double' to 'float'
+  timer.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  transform.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\transform.cpp(66,38): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\transform.cpp(67,38): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\transform.cpp(68,38): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+  treeGeneration.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(39,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(41,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(42,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(134,65): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(137,65): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(182,65): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(185,65): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(255,67): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(258,67): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(288,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(323,64): warning C4244: '=': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=float
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(368,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(371,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(374,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(435,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(438,54): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(447,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(453,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(456,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(460,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(521,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(524,54): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(535,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(541,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(544,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(548,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(608,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(614,54): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(621,70): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(622,71): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(624,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(631,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(689,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(692,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(699,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(738,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(778,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(790,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(791,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(880,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(911,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(995,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(1026,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(1129,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(1130,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(1247,136): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(1319,99): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(1340,98): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(1408,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(1409,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(1491,92): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\treeGeneration.cpp(1509,131): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  volume.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\volume.cpp(39,107): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\volume.cpp(40,107): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\volume.cpp(41,107): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\volume.cpp(75,145): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\volume.cpp(75,104): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\volume.cpp(75,63): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+E:\Graduation_Project\Clean\avatree\src\Modeller\Modeller\volume.cpp(272,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  volumeFilling.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/const_reverse_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+E:\Graduation_Project\avatree-master\thirdparty\Boost-1.74\include\boost-1_74\boost/range/reverse_result_iterator.hpp(20): message : This header is deprecated. Use <boost/range/reverse_iterator.hpp> instead.
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54): error C2499: 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator': a class cannot be its own base class
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(80): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type::iterator' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(102): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>::children_type' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(170): message : see reference to class template instantiation 'CGAL::internal::boost_::array_binary_tree_node<RandomAccessIterator,ID>' being compiled
+C:\dev\CGAL-4.11.3\include\CGAL/internal/boost/array_binary_tree.hpp(54,28): error C2143: syntax error: missing ',' before '<'
+  Generating Code...

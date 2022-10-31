@@ -1,0 +1,707 @@
+﻿itksys-5.1.lib(SystemTools.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itksys-5.1.lib(SystemTools.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itksys-5.1.lib(RegularExpression.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itksys-5.1.lib(RegularExpression.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itksys-5.1.lib(Directory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itksys-5.1.lib(Directory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itksys-5.1.lib(EncodingCXX.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itksys-5.1.lib(EncodingCXX.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkCommonEnums.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkCommonEnums.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOImageBase-5.1.lib(itkImageIOBase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOImageBase-5.1.lib(itkImageIOBase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOImageBase-5.1.lib(itkImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOImageBase-5.1.lib(itkImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOBMP-5.1.lib(itkBMPImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOBMP-5.1.lib(itkBMPImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOBMP-5.1.lib(itkBMPImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOBMP-5.1.lib(itkBMPImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOBioRad-5.1.lib(itkBioRadImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOBioRad-5.1.lib(itkBioRadImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOBioRad-5.1.lib(itkBioRadImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOBioRad-5.1.lib(itkBioRadImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOBruker-5.1.lib(itkBruker2dseqImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOBruker-5.1.lib(itkBruker2dseqImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOBruker-5.1.lib(itkBruker2dseqImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOBruker-5.1.lib(itkBruker2dseqImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOGDCM-5.1.lib(itkGDCMImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOGDCM-5.1.lib(itkGDCMImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOGDCM-5.1.lib(itkGDCMImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOGDCM-5.1.lib(itkGDCMImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOGE-5.1.lib(itkGE4ImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOGE-5.1.lib(itkGE4ImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOGE-5.1.lib(itkGE5ImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOGE-5.1.lib(itkGE5ImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOGE-5.1.lib(itkGE4ImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOGE-5.1.lib(itkGE4ImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOGE-5.1.lib(itkGE5ImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOGE-5.1.lib(itkGE5ImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOGIPL-5.1.lib(itkGiplImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOGIPL-5.1.lib(itkGiplImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOGIPL-5.1.lib(itkGiplImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOGIPL-5.1.lib(itkGiplImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOHDF5-5.1.lib(itkHDF5ImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOHDF5-5.1.lib(itkHDF5ImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOHDF5-5.1.lib(itkHDF5ImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOHDF5-5.1.lib(itkHDF5ImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOJPEG-5.1.lib(itkJPEGImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOJPEG-5.1.lib(itkJPEGImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOJPEG-5.1.lib(itkJPEGImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOJPEG-5.1.lib(itkJPEGImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOJPEG2000-5.1.lib(itkJPEG2000ImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOJPEG2000-5.1.lib(itkJPEG2000ImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOJPEG2000-5.1.lib(itkJPEG2000ImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOJPEG2000-5.1.lib(itkJPEG2000ImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOTIFF-5.1.lib(itkTIFFImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOTIFF-5.1.lib(itkTIFFImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOTIFF-5.1.lib(itkTIFFImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOTIFF-5.1.lib(itkTIFFImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOTIFF-5.1.lib(itkTIFFReaderInternal.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOTIFF-5.1.lib(itkTIFFReaderInternal.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOLSM-5.1.lib(itkLSMImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOLSM-5.1.lib(itkLSMImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOLSM-5.1.lib(itkLSMImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOLSM-5.1.lib(itkLSMImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOMINC-5.1.lib(itkMINCImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOMINC-5.1.lib(itkMINCImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOMINC-5.1.lib(itkMINCImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOMINC-5.1.lib(itkMINCImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOMRC-5.1.lib(itkMRCImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOMRC-5.1.lib(itkMRCImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOMRC-5.1.lib(itkMRCImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOMRC-5.1.lib(itkMRCImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOMRC-5.1.lib(itkMRCHeaderObject.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOMRC-5.1.lib(itkMRCHeaderObject.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOMeta-5.1.lib(itkMetaImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOMeta-5.1.lib(itkMetaImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOMeta-5.1.lib(itkMetaImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOMeta-5.1.lib(itkMetaImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIONIFTI-5.1.lib(itkNiftiImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIONIFTI-5.1.lib(itkNiftiImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIONIFTI-5.1.lib(itkNiftiImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIONIFTI-5.1.lib(itkNiftiImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIONRRD-5.1.lib(itkNrrdImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIONRRD-5.1.lib(itkNrrdImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIONRRD-5.1.lib(itkNrrdImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIONRRD-5.1.lib(itkNrrdImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOPNG-5.1.lib(itkPNGImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOPNG-5.1.lib(itkPNGImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOPNG-5.1.lib(itkPNGImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOPNG-5.1.lib(itkPNGImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOStimulate-5.1.lib(itkStimulateImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOStimulate-5.1.lib(itkStimulateImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOStimulate-5.1.lib(itkStimulateImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOStimulate-5.1.lib(itkStimulateImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOVTK-5.1.lib(itkVTKImageIOFactory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOVTK-5.1.lib(itkVTKImageIOFactory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOVTK-5.1.lib(itkVTKImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOVTK-5.1.lib(itkVTKImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmTag.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmTag.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmVR.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmVR.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmValue.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmValue.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmByteValue.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmByteValue.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmTransferSyntax.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmTransferSyntax.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmMediaStorage.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmMediaStorage.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmDataSet.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmDataSet.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmFileMetaInformation.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmFileMetaInformation.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmFile.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmFile.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmReader.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmReader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmWriter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmWriter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmDataElement.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmDataElement.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmPreamble.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmPreamble.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmExplicitDataElement.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmExplicitDataElement.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmByteSwapFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmByteSwapFilter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmSequenceOfItems.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmSequenceOfItems.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmSequenceOfFragments.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmSequenceOfFragments.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmImplicitDataElement.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmImplicitDataElement.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmUNExplicitDataElement.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmUNExplicitDataElement.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmCP246ExplicitDataElement.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmCP246ExplicitDataElement.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmExplicitImplicitDataElement.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmExplicitImplicitDataElement.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmVR16ExplicitDataElement.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmVR16ExplicitDataElement.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmFragment.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmFragment.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmCommon-5.1.lib(gdcmSystem.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmCommon-5.1.lib(gdcmSystem.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmCommon-5.1.lib(gdcmFilename.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmCommon-5.1.lib(gdcmFilename.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmCommon-5.1.lib(gdcmDirectory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmCommon-5.1.lib(gdcmDirectory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl_algo-5.1.lib(vnl_svd+double-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl_algo-5.1.lib(vnl_svd+double-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+double-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+double-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+double-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+double-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+double-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+double-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+char-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+char-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+int-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+int-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+float-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+float-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+uchar-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+uchar-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+sshort-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+sshort-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+ushort-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+ushort-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+uint-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+uint-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+long-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+long-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+ulong-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+ulong-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+longlong-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+longlong-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+ulonglong-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_vector+ulonglong-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_fortran_copy+double-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_fortran_copy+double-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matlab_print+double-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matlab_print+double-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_diag_matrix+double-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_diag_matrix+double-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+char-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+char-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+char-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+char-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+int-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+int-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+int-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+int-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+float-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+float-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+float-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+float-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+uchar-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+uchar-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+uchar-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+uchar-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+sshort-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+sshort-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+sshort-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+sshort-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+ushort-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+ushort-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+ushort-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+ushort-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+uint-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+uint-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+uint-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+uint-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+long-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+long-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+long-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+long-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+ulong-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+ulong-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+ulong-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+ulong-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+longlong-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+longlong-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+longlong-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+longlong-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+ulonglong-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_c_vector+ulonglong-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+ulonglong-.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matrix+ulonglong-.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matlab_print_scalar.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matlab_print_scalar.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkvnl-5.1.lib(vnl_matlab_print_format.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkvnl-5.1.lib(vnl_matlab_print_format.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkOutputWindow.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkOutputWindow.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkExceptionObject.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkExceptionObject.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkIndent.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkIndent.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkLightObject.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkLightObject.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkObject.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkObject.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkObjectFactoryBase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkObjectFactoryBase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkLightProcessObject.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkLightProcessObject.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkRegion.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkRegion.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkImageIORegion.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkImageIORegion.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkImageRegionSplitterSlowDimension.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkImageRegionSplitterSlowDimension.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkCreateObjectFunction.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkCreateObjectFunction.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkMetaDataObjectBase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkMetaDataObjectBase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkMetaDataDictionary.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkMetaDataDictionary.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkMetaDataObject.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkMetaDataObject.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkVersion.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkVersion.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkSpatialOrientationAdapter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkSpatialOrientationAdapter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkSingleton.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkSingleton.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkFloatingPointExceptions.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkFloatingPointExceptions.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkTimeStamp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkTimeStamp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkEventObject.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkEventObject.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkDynamicLoader.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkDynamicLoader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkDirectory.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkDirectory.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKCommon-5.1.lib(itkImageRegionSplitterBase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKCommon-5.1.lib(itkImageRegionSplitterBase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKMetaIO-5.1.lib(metaUtils.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKMetaIO-5.1.lib(metaUtils.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKMetaIO-5.1.lib(metaObject.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKMetaIO-5.1.lib(metaObject.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKMetaIO-5.1.lib(metaImage.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKMetaIO-5.1.lib(metaImage.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKMetaIO-5.1.lib(metaImageUtils.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKMetaIO-5.1.lib(metaImageUtils.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOImageBase-5.1.lib(itkIOCommon.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOImageBase-5.1.lib(itkIOCommon.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+ITKIOImageBase-5.1.lib(itkStreamingImageIOBase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOImageBase-5.1.lib(itkStreamingImageIOBase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDICT-5.1.lib(gdcmDicts.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDICT-5.1.lib(gdcmDicts.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDICT-5.1.lib(gdcmGlobal.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDICT-5.1.lib(gdcmGlobal.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDICT-5.1.lib(gdcmDefaultDicts.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDICT-5.1.lib(gdcmDefaultDicts.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDICT-5.1.lib(gdcmPrivateDefaultDicts.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDICT-5.1.lib(gdcmPrivateDefaultDicts.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDICT-5.1.lib(gdcmCSAHeaderDefaultDicts.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDICT-5.1.lib(gdcmCSAHeaderDefaultDicts.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPixelFormat.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPixelFormat.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageHelper.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageHelper.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmFileExplicitFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmFileExplicitFilter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmCurve.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmCurve.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmOverlay.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmOverlay.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmBitmap.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmBitmap.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmBitmapToBitmapFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmBitmapToBitmapFilter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageToImageFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageToImageFilter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageChangeTransferSyntax.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageChangeTransferSyntax.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageChangePhotometricInterpretation.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageChangePhotometricInterpretation.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmDataSetHelper.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmDataSetHelper.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmStringFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmStringFilter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageApplyLookupTable.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageApplyLookupTable.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageChangePlanarConfiguration.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageChangePlanarConfiguration.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmRescaler.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmRescaler.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPixmap.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPixmap.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImage.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImage.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageReader.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageReader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPixmapWriter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPixmapWriter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageWriter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageWriter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmUIDGenerator.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmUIDGenerator.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPhotometricInterpretation.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPhotometricInterpretation.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmLookupTable.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmLookupTable.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmDirectionCosines.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmDirectionCosines.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmSegmentedPaletteColorLookupTable.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmSegmentedPaletteColorLookupTable.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageCodec.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmImageCodec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmRAWCodec.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmRAWCodec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmJPEGCodec.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmJPEGCodec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPVRGCodec.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPVRGCodec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmKAKADUCodec.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmKAKADUCodec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmJPEGLSCodec.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmJPEGLSCodec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmJPEG2000Codec.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmJPEG2000Codec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmRLECodec.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmRLECodec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPixmapToPixmapFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPixmapToPixmapFilter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPixmapReader.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmPixmapReader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmJPEG8Codec.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmJPEG8Codec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmJPEG12Codec.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmJPEG12Codec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmJPEG16Codec.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(gdcmJPEG16Codec.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(info.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(info.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(rle.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(rle.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmMSFF-5.1.lib(io.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmMSFF-5.1.lib(io.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_cpp_D.lib(H5Exception.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5Exception.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5IdComponent.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5IdComponent.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5DataSpace.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5DataSpace.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5FaccProp.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5FaccProp.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5DcreatProp.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5DcreatProp.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5Location.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5Location.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5Object.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5Object.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5AbstractDs.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5AbstractDs.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5Attribute.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5Attribute.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5DataType.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5DataType.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5PredType.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5PredType.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5FloatType.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5FloatType.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5StrType.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5StrType.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5DataSet.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5DataSet.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5Group.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5Group.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5File.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5File.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5PropList.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5PropList.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5FcreatProp.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5FcreatProp.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5DxferProp.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5DxferProp.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5LcreatProp.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5LcreatProp.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5LaccProp.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5LaccProp.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5DaccProp.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5DaccProp.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5Library.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5Library.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5OcreatProp.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5OcreatProp.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5CommonFG.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5CommonFG.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5EnumType.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5EnumType.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5IntType.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5IntType.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5ArrayType.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5ArrayType.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5VarLenType.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5VarLenType.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5CompType.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5CompType.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_cpp_D.lib(H5AtomType.obj) : warning LNK4099: PDB 'libitkhdf5_cpp_D.pdb' was not found with 'libitkhdf5_cpp_D.lib(H5AtomType.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_cpp_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5A.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5A.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5F.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5F.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5E.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5E.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5I.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5I.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5S.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5S.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Sselect.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Sselect.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Shyper.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Shyper.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Spoint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Spoint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Sall.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Sall.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Snone.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Snone.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pfapl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pfapl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FDcore.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FDcore.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FDfamily.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FDfamily.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FDlog.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FDlog.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FDmulti.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FDmulti.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FDsec2.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FDsec2.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FDstdio.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FDstdio.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pocpl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pocpl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pdcpl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pdcpl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5L.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5L.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5O.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5O.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5D.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5D.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Fmount.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Fmount.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5G.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5G.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gdeprec.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gdeprec.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5P.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5P.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pgcpl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pgcpl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5R.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5R.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Rdeprec.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Rdeprec.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5T.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5T.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tnative.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tnative.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tcommit.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tcommit.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Topaque.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Topaque.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tfloat.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tfloat.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tstrpad.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tstrpad.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tcset.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tcset.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dio.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dio.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dfill.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dfill.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pfcpl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pfcpl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pdeprec.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pdeprec.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pdxpl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pdxpl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pstrcpl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pstrcpl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Plapl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Plapl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pdapl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pdapl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tenum.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tenum.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tfields.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tfields.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tfixed.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tfixed.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tarray.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tarray.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tvlen.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tvlen.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tcompound.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tcompound.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Torder.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Torder.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tprecis.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tprecis.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Toffset.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Toffset.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tpad.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tpad.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5system.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5system.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5CX.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5CX.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5AC.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5AC.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FD.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FD.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FL.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FL.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5PLint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5PLint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Rint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Rint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5SL.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5SL.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Z.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Z.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Eint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Eint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FSint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FSint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5MM.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5MM.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5lib_settings.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5lib_settings.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Aint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Aint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Fquery.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Fquery.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gloc.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gloc.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Fint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Fint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Fsfile.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Fsfile.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Clog.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Clog.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FDint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FDint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5PB.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5PB.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Fefc.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Fefc.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Edeprec.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Edeprec.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gname.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gname.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+ITKIOIPL-5.1.lib(itkIPLCommonImageIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOIPL-5.1.lib(itkIPLCommonImageIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5Ffake.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ffake.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Omessage.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Omessage.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+ITKIOIPL-5.1.lib(itkIPLFileNameList.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+ITKIOIPL-5.1.lib(itkIPLFileNameList.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5Oshared.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Oshared.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5VM.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5VM.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dselect.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dselect.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pencdec.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pencdec.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pfmpl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pfmpl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pacpl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pacpl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Plcpl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Plcpl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Pocpypl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Pocpypl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Ofill.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ofill.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dvirtual.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dvirtual.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dbtree.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dbtree.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5RS.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5RS.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gtraverse.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gtraverse.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Glink.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Glink.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gobj.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gobj.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Oint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Oint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Ocopy.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ocopy.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Lexternal.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Lexternal.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dchunk.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dchunk.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gstab.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gstab.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gcompact.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gcompact.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gdense.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gdense.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FO.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FO.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tinit.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tinit.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tvisit.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tvisit.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tconv.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tconv.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tbit.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tbit.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Tdbg.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Tdbg.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Oflush.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Oflush.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Ztrans.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ztrans.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dscatgath.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dscatgath.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5WB.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5WB.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HG.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HG.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Bcache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Bcache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gcache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gcache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HLcache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HLcache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HGcache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HGcache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Ocache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ocache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5B2cache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5B2cache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFcache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFcache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FScache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FScache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5SMcache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5SMcache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5EAcache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5EAcache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FAcache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FAcache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Fsuper_cache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Fsuper_cache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Cepoch.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Cepoch.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5ACproxy_entry.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5ACproxy_entry.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+itkgdcmIOD-5.1.lib(gdcmDefs.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmIOD-5.1.lib(gdcmDefs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5Cprefetched.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Cprefetched.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+itkgdcmIOD-5.1.lib(gdcmType.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmIOD-5.1.lib(gdcmType.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmIOD-5.1.lib(gdcmModule.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmIOD-5.1.lib(gdcmModule.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmIOD-5.1.lib(gdcmIODEntry.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmIOD-5.1.lib(gdcmIODEntry.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5C.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5C.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+itkgdcmIOD-5.1.lib(gdcmTableReader.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmIOD-5.1.lib(gdcmTableReader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5Ctag.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ctag.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Cimage.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Cimage.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+itkgdcmIOD-5.1.lib(gdcmMacro.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmIOD-5.1.lib(gdcmMacro.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmPrivateTag.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmPrivateTag.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5Cquery.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Cquery.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+itkgdcmDSED-5.1.lib(gdcmVM.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmDSED-5.1.lib(gdcmVM.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmCommon-5.1.lib(gdcmSwapCode.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmCommon-5.1.lib(gdcmSwapCode.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+itkgdcmCommon-5.1.lib(gdcmUnpacker12Bits.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmCommon-5.1.lib(gdcmUnpacker12Bits.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5ACdbg.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5ACdbg.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5AClog.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5AClog.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Fio.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Fio.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Opline.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Opline.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dlayout.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dlayout.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dcontig.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dcontig.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dcompact.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dcompact.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FDspace.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FDspace.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5PLplugin_cache.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5PLplugin_cache.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5PLpath.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5PLpath.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5checksum.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5checksum.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Zshuffle.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Zshuffle.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Zfletcher32.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Zfletcher32.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Znbit.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Znbit.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Zscaleoffset.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Zscaleoffset.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Zdeflate.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Zdeflate.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FS.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FS.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5B2.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5B2.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Adense.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Adense.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Oattribute.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Oattribute.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5SM.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5SM.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Oattr.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Oattr.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Groot.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Groot.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Fsuper.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Fsuper.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gnode.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gnode.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Faccum.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Faccum.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5MF.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5MF.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5MFaggr.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5MFaggr.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Ochunk.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ochunk.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+itkgdcmcharls-5.1.lib(interface.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmcharls-5.1.lib(interface.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5Oalloc.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Oalloc.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Ounknown.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ounknown.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HF.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HF.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+itkgdcmcharls-5.1.lib(jpegls.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmcharls-5.1.lib(jpegls.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5UC.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5UC.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5B.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5B.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Bdbg.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Bdbg.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HL.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HL.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Onull.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Onull.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Osdspace.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Osdspace.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+itkgdcmcharls-5.1.lib(jpegstreamreader.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmcharls-5.1.lib(jpegstreamreader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5Olinfo.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Olinfo.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+itkgdcmcharls-5.1.lib(jpegstreamwriter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmcharls-5.1.lib(jpegstreamwriter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5Odtype.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Odtype.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+itkgdcmcharls-5.1.lib(jpegmarkersegment.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itkgdcmcharls-5.1.lib(jpegmarkersegment.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5Olink.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Olink.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Oefl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Oefl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Olayout.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Olayout.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Oginfo.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Oginfo.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Oname.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Oname.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Omtime.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Omtime.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+itksys-5.1.lib(DynamicLoader.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in adjacency.obj
+itksys-5.1.lib(DynamicLoader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in adjacency.obj
+libitkhdf5_D.lib(H5Oshmesg.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Oshmesg.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Ocont.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ocont.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Ostab.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ostab.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Obtreek.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Obtreek.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Odrvinfo.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Odrvinfo.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Oainfo.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Oainfo.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Orefcount.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Orefcount.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+libitkhdf5_D.lib(H5Ofsinfo.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ofsinfo.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Ocache_image.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ocache_image.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Goh.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Goh.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Doh.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Doh.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Toh.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Toh.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5timer.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5timer.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dnone.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dnone.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dsingle.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dsingle.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dearray.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dearray.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dfarray.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dfarray.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Dbtree2.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Dbtree2.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gbtree2.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gbtree2.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Fcwfs.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Fcwfs.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Gent.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Gent.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HLint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HLint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HLprfx.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HLprfx.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HLdblk.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HLdblk.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5B2int.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5B2int.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5B2hdr.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5B2hdr.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5B2leaf.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5B2leaf.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5B2internal.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5B2internal.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFhdr.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFhdr.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFiblock.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFiblock.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFdblock.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFdblock.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FSsection.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FSsection.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5SMmessage.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5SMmessage.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5EAint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5EAint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5EAhdr.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5EAhdr.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5EAiblock.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5EAiblock.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5EAsblock.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5EAsblock.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5EAdblock.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5EAdblock.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5EAdblkpage.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5EAdblkpage.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5EA.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5EA.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FAint.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FAint.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FAhdr.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FAhdr.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FAdblock.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FAdblock.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FAdblkpage.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FAdblkpage.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FA.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FA.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Cdbg.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Cdbg.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Defl.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Defl.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5B2test.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5B2test.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFbtree2.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFbtree2.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5SMbtree2.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5SMbtree2.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Abtree2.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Abtree2.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5B2stat.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5B2stat.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFstat.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFstat.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Sdbg.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Sdbg.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FSstat.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FSstat.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Fspace.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Fspace.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5MFsection.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5MFsection.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFman.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFman.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFhuge.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFhuge.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFtiny.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFtiny.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFiter.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFiter.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFspace.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFspace.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5EAstat.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5EAstat.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FAstat.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FAstat.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HGquery.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HGquery.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFdtable.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFdtable.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5HFsection.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5HFsection.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5EAtest.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5EAtest.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5FAtest.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5FAtest.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Odbg.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Odbg.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Adeprec.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Adeprec.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+libitkhdf5_D.lib(H5Ddeprec.obj) : warning LNK4099: PDB 'libitkhdf5_D.pdb' was not found with 'libitkhdf5_D.lib(H5Ddeprec.obj)' or at 'E:\Graduation_Project\Clean\avatree\Debug\libitkhdf5_D.pdb'; linking object as if no debug info
+E:\Graduation_Project\Clean\avatree\Debug\ModellerCMD.exe : fatal error LNK1319: 420 mismatches detected

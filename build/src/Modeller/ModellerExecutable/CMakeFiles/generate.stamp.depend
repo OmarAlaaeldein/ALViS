@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+E:/Graduation_Project/Clean/avatree/src/Modeller/ModellerExecutable/CMakeLists.txt
+E:/Graduation_Project/Clean/avatree/thirdparty/ITK/lib/cmake/ITK-5.1/UseITK.cmake
+E:/Graduation_Project/Clean/avatree/thirdparty/ITK/lib/cmake/ITK-5.1/itkImageIOFactoryRegisterManager.h.in
+E:/Graduation_Project/Clean/avatree/thirdparty/ITK/lib/cmake/ITK-5.1/itkMeshIOFactoryRegisterManager.h.in
+E:/Graduation_Project/Clean/avatree/thirdparty/ITK/lib/cmake/ITK-5.1/itkTransformIOFactoryRegisterManager.h.in

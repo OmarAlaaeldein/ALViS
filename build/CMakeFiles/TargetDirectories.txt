@@ -1,0 +1,6 @@
+E:/Graduation_Project/Clean/avatree/build/CMakeFiles/ALL_BUILD.dir
+E:/Graduation_Project/Clean/avatree/build/CMakeFiles/ZERO_CHECK.dir
+E:/Graduation_Project/Clean/avatree/build/src/Modeller/Modeller/CMakeFiles/ModellerLib.dir
+E:/Graduation_Project/Clean/avatree/build/src/Modeller/Modeller/CMakeFiles/ALL_BUILD.dir
+E:/Graduation_Project/Clean/avatree/build/src/Modeller/ModellerExecutable/CMakeFiles/ModellerCMD.dir
+E:/Graduation_Project/Clean/avatree/build/src/Modeller/ModellerExecutable/CMakeFiles/ALL_BUILD.dir
