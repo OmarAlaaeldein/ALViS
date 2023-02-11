@@ -24,7 +24,7 @@
 
 int main(int argc, char** argv) {
 
-	std::string solutiondir = TXT;
+	/*std::string solutiondir = TXT;
 	std::string root = solutiondir + "\\data\\";
 	std::string path = root;
 	std::string mhdLungFileName = root + "Segmentation\\VESSEL12_08.mhd";
@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
 	std::string mhdLungMaskFileName = root + "Segmentation\\VESSEL12_08_Lungs.mhd";
 	std::string rawLungMaskFileName = root + "Segmentation\\VESSEL12_08_Lungs.raw";
 	std::string existingModelMesh = path + "Segmentation\\airwaysSurface.obj";
-	std::string extractedCenterline = path + "Segmentation\\VESSEL12_08_Centerline.vtk";
+	std::string extractedCenterline = path + "Segmentation\\VESSEL12_08_Centerline.vtk";*/
 
 	int seed, label, lim;
 	std::vector<int> labelsArray = { 100,200 };

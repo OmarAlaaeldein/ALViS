@@ -2896,7 +2896,7 @@ void simulation::extendBronchialTreeV2(
 	dotObj * existingModel,
 	status * stat,
 	bool verbose) {
-	std::cout << "Input stuff please:";
+	std::cout << "Input desired depth of output 3D Model: ";
 	std::cin >> depth;
 	bool initvols = buildVolumes;
 	bool initskeletonization = buildCenterline;
@@ -3598,7 +3598,7 @@ void simulation::extendBronchialTreeV2(
 	volume * volLeft = nullptr,
 	volume * volRight = nullptr
 ) {
-	std::cout << "Input stuff please:";
+	std::cout << "Input desired depth of output 3D Model: ";
 	std::cin >> depth;
 	bool initvols = buildVolumes;
 	bool initskeletonization = buildCenterline;
