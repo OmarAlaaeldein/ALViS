@@ -1,5 +1,8 @@
 #include "lungModelling.h"
+#include "treeDepth.h"
 #include <iostream>
+#include <cstdlib>
+#include <string.h>
 
 #include "itkImage.h"
 #include <itkImageFileWriter.h>
@@ -22,17 +25,23 @@
 #define TXT ""
 #endif
 
-int main(int argc, char** argv) {
+int main(int argc, char* argv[]) {
 
-	/*std::string solutiondir = TXT;
+	std::string solutiondir = TXT;
 	std::string root = solutiondir + "\\data\\";
-	std::string path = root;
-	std::string mhdLungFileName = root + "Segmentation\\VESSEL12_08.mhd";
-	std::string rawLungFileName = root + "Segmentation\\VESSEL12_08.raw";
-	std::string mhdLungMaskFileName = root + "Segmentation\\VESSEL12_08_Lungs.mhd";
-	std::string rawLungMaskFileName = root + "Segmentation\\VESSEL12_08_Lungs.raw";
-	std::string existingModelMesh = path + "Segmentation\\airwaysSurface.obj";
-	std::string extractedCenterline = path + "Segmentation\\VESSEL12_08_Centerline.vtk";*/
+	//std::string path = root;
+	std::string path = "";
+	std::string mhdLungFileName = std::string(argv[2]);
+	int pos = mhdLungFileName.find(".");
+	std::string rawLungFileName = mhdLungFileName.substr(0, pos) + ".raw";
+	std::string mhdLungMaskFileName = std::string(argv[4]);
+	int pos1 = mhdLungMaskFileName.find(".");
+	std::string rawLungMaskFileName = mhdLungMaskFileName.substr(0, pos1) + ".raw";
+	
+	std::string existingModelMesh = std::string(argv[3]);
+	std::string extractedCenterline = std::string(argv[5]);
+
+	int Tree3DDeptho = atoi(argv[1]);
 
 	int seed, label, lim;
 	std::vector<int> labelsArray = { 100,200 };
@@ -47,7 +56,7 @@ int main(int argc, char** argv) {
 	bool build3DModel = true;
 	bool refinements = false;
 	bool segmentation = false;
-	int depth = 12;
+	int depth = Tree3DDeptho;
 	int volumeDepth = 16;
 	int density = 300;
 	int poissonDepth = 11;
@@ -301,12 +310,12 @@ int main(int argc, char** argv) {
 	extractedCenterlineModel->exportToFile(path + "cccline");
 
 	dotObj* trachea = new dotObj();
-	if (strlen(path.c_str()) > 2) {
+	/*if (strlen(path.c_str()) > 2) {
 	}
 	else {
 		std::cout << "Error: Enter valid workspace path" << std::endl;
 		return 0;
-	}
+	}*/
 	simulation* s = new simulation();
 	status* st = new status();
 	try {

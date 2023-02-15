@@ -1,4 +1,5 @@
 #include "lungModelling.h"
+#include "treeDepth.h"
 #include <CGAL/IO/write_ply_points.h>
 // Property map associating a facet with an integer as id to an
 // element in a vector stored internally
@@ -17,7 +18,7 @@ void dotObj::segmentBySkeleton(void) {
 
 	std::vector<float> temp;
 	std::vector<float> temp2;
-	
+
 
 	std::cout << "Extract sdf values" << std::endl;
 	// create and read Polyhedron----------------------------------------------------------------------------------
@@ -126,7 +127,7 @@ void dotObj::segmentByGeneration(void) {
 	return;
 }
 
-void dotObj::segmentByGeneration(dotObj & skel) {
+void dotObj::segmentByGeneration(dotObj& skel) {
 	this->graphBasedAnalysis(skel);
 
 	/*
@@ -140,9 +141,9 @@ void dotObj::segmentByGeneration(dotObj & skel) {
 
 	//=============================================================
 	//Graph 2 OBJ test
-	ggraph * rebuilt;
-	dotObj * test3;
-	gnode * g;
+	ggraph* rebuilt;
+	dotObj* test3;
+	gnode* g;
 	rebuilt = new ggraph();
 	*rebuilt = this->mAnalysis.graph;
 	test3 = new dotObj;
@@ -427,7 +428,7 @@ void dotObj::updateSegmentProperties(void) {
 	return;
 }
 
-void dotObj::graphBased1DModelAnalysis(bool LR, bool generations,int inlet) {
+void dotObj::graphBased1DModelAnalysis(bool LR, bool generations, int inlet) {
 	//this->splitSkeletonEdges(0.4);
 	this->mAnalysis.parseTerminals = true;
 	std::cout << "Locate neighbours" << std::endl;
@@ -437,7 +438,8 @@ void dotObj::graphBased1DModelAnalysis(bool LR, bool generations,int inlet) {
 	distance d = this->mAnalysis.getMaxPath();
 	if (inlet < 0) {
 		this->mAnalysis.inlet = this->mAnalysis.paths[d.index].nodes[mAnalysis.paths[d.index].nodes.size() - 1];
-	}else {
+	}
+	else {
 		this->mAnalysis.inlet = inlet;
 	}
 
@@ -480,7 +482,7 @@ void dotObj::graphBasedPruning(void) {
 	bool remove = false;
 	for (int i = 0; i < this->mAnalysis.graph.nodes.size(); i++) {
 		if (this->mAnalysis.graph.nodes[i].isTerminal) {
-			gnode * g;
+			gnode* g;
 			remove = false;
 			g = this->mAnalysis.graph.nodes[i].previousBifurcationPtr;
 			for (int j = 0; j < g->nextBifurcationPtr.size(); j++) {
@@ -577,7 +579,7 @@ analysis::analysis(void) {
 
 //Initializations
 //
-void analysis::initialize(dotObj * geom, dotObj * skel) {
+void analysis::initialize(dotObj* geom, dotObj* skel) {
 	this->MeshVertex2SkeletonVertex.resize(geom->vertices.size());
 	this->MeshVertex2SkeletonEdge.resize(geom->vertices.size());
 	this->SkeletonEdge2MeshVertices.resize(skel->lines.size());
@@ -587,7 +589,7 @@ void analysis::initialize(dotObj * geom, dotObj * skel) {
 	return;
 }
 
-void analysis::pathFinder(std::vector<std::vector<int>> &neighboursPerVertex) {
+void analysis::pathFinder(std::vector<std::vector<int>>& neighboursPerVertex) {
 	std::vector<int>neighbourhood;
 	gpath path;
 
@@ -664,7 +666,7 @@ void analysis::pathFinder(std::vector<std::vector<int>> &neighboursPerVertex) {
 	return;
 }
 
-void analysis::pathAnalyzer(dotObj & skel) {
+void analysis::pathAnalyzer(dotObj& skel) {
 	//This function aims to build a bifurcating graph
 	//This function receives as exports the graph of the 1-D graph and
 	//gets the last element of each path. Assuming that the beginning of each path is
@@ -747,8 +749,8 @@ void analysis::pathAnalyzer(dotObj & skel) {
 	return;
 }
 
-void dotObj::graphBasedAnalysis(dotObj & skel) {
-	dotObj * geom = (this);
+void dotObj::graphBasedAnalysis(dotObj& skel) {
+	dotObj* geom = (this);
 	skel.getNeighbouringVerticesOnSkeleton();
 	analysis a;
 	this->mAnalysis = a;
@@ -824,7 +826,7 @@ void dotObj::graphBasedAnalysis(dotObj & skel) {
 	return;
 }
 
-void analysis::generateGraph(dotObj &skel, int inlet) {
+void analysis::generateGraph(dotObj& skel, int inlet) {
 	std::cout << "Generate graph" << std::endl;
 	if (this->neighboursPerVertex.empty()) {
 		this->neighboursPerVertex = skel.getNeighboursPerVertex();
@@ -838,7 +840,7 @@ void analysis::generateGraph(dotObj &skel, int inlet) {
 	while (!buffer.empty()) {
 		int v = buffer.back();
 		buffer.pop_back();
-		gnode * node = new gnode();
+		gnode* node = new gnode();
 		node->index = v;
 		node->position = Vector3f(skel.vertices[v][0], skel.vertices[v][1], skel.vertices[v][2]);
 		checked.push_back(v);
@@ -1144,7 +1146,7 @@ void analysis::analyzeGraph2(void) {
 */
 
 void analysis::exportGraphFeatures(std::string outfile) {
-	gnode * g1 = new gnode();
+	gnode* g1 = new gnode();
 	g1 = this->graph.init->nextBifurcationPtr[0];
 	std::vector<gnode*> A;
 	A.push_back(&this->graph.nodes[this->inlet]);
@@ -1168,7 +1170,7 @@ void analysis::exportGraphFeatures(std::string outfile) {
 		if (B.size() == 2) {
 			b1 = B[0]->position - vpos;
 			b2 = B[1]->position - vpos;
-			theta = acos(b1.dot(b2) / (b1.norm()*b2.norm())) * 360 / (2 * Pi);
+			theta = acos(b1.dot(b2) / (b1.norm() * b2.norm())) * 360 / (2 * Pi);
 		}
 		for (int i = 0; i < B.size(); i++) {
 			if (!B.empty() && !M.empty()) {
@@ -1191,11 +1193,11 @@ void analysis::exportGraphFeatures(std::string outfile) {
 }
 
 void analysis::generateGraphFeatures(void) {
-	gnode * g1 = new gnode();
+	gnode* g1 = new gnode();
 
 	g1 = this->graph.init->nextBifurcationPtr[0];
 
-	std::vector < gnode *> g2 = g1->nextNodesPtr;
+	std::vector < gnode*> g2 = g1->nextNodesPtr;
 
 	if ((g2[0]->nextBifurcationPtr[0]->position - g1->position).norm() > (g2[1]->nextBifurcationPtr[0]->position - g1->position).norm()) {
 		g2[0]->isRight = true;
@@ -1441,7 +1443,7 @@ void analysis::generateGraphFeaturesGeneration(void) {
 	return;
 }*/
 
-void analysis::getSkeletonVertex2Generation(dotObj & skel) {
+void analysis::getSkeletonVertex2Generation(dotObj& skel) {
 	bool found;
 	int fullPathIndex;
 	int fullPathIndexPos;
@@ -1666,7 +1668,7 @@ void simulation::narrow(double contractionPercentageBox, int contractionStrength
 	narrowingRatio = 0.0;
 
 	//INITIALIZE============================================
-	dotObj *inputModel, *airway, buffer;
+	dotObj* inputModel, * airway, buffer;
 	airway = new dotObj;
 	inputModel = new dotObj;
 	*inputModel = lungmodel.at(lungmodel.size() - 1);
@@ -1786,20 +1788,20 @@ void simulation::narrow(double contractionPercentageBox, int contractionStrength
 	return;
 }
 
-void simulation::generateVolume(int numOfGenerations, int density, volume &thevol, dotObj boundary, std::string id) {
+void simulation::generateVolume(int numOfGenerations, int density, volume& thevol, dotObj boundary, std::string id) {
 	int totalNumberOfPoints;
 	int atLeastPerEdge;
 
 	totalNumberOfPoints = (int)(powf(2.0, (float)numOfGenerations + 1));
 	////SET BOUNDARY
 	std::cout << std::endl << "Action :: Setting boundary" << std::endl;
-	dotObj * theParentObj;
+	dotObj* theParentObj;
 	theParentObj = new dotObj();
 	*theParentObj = boundary;
 	//theParentObj->exportToFile("volumeBoundary" + id, "obj"); //->Exports outsite the create function
 
 	////SET VOLUME
-	volume * vol;
+	volume* vol;
 	vol = new volume();
 
 	if (thevol.vertices.size() == 0) {
@@ -1818,21 +1820,21 @@ void simulation::generateVolume(int numOfGenerations, int density, volume &thevo
 	return;
 }
 
-void simulation::generate1DTree(int numOfGenerations, volume &thevol, dotObj &boundary, dotObj &hostMesh, dotObj &oneDim)
+void simulation::generate1DTree(int numOfGenerations, volume& thevol, dotObj& boundary, dotObj& hostMesh, dotObj& oneDim)
 {
 	int totalNumberOfPoints = (int)(powf(2.0, (float)numOfGenerations + 1));
 	std::cout << std::endl << "Action :: Setting boundary" << std::endl;
-	dotObj * theParentObj;
+	dotObj* theParentObj;
 	theParentObj = new dotObj();
 	*theParentObj = boundary;
 	std::cout << std::endl << "Action :: Getting volume from file" << std::endl;
-	volume * vol;
+	volume* vol;
 	vol = new volume();
 	*vol = thevol;
 	////GENERATE 1D REPRESENTATION
-	treeGeneration *treeOne;
+	treeGeneration* treeOne;
 	treeOne = new treeGeneration();
-	treeGeneration *treeTwo;
+	treeGeneration* treeTwo;
 	treeTwo = new treeGeneration();
 	std::cout << std::endl << "Action :: Building 1-dimensional representation" << std::endl;
 	treeOne->volumeFillingSupplyDemand(*vol, hostMesh, totalNumberOfPoints); //->Exports inside the create function
@@ -1848,9 +1850,9 @@ void simulation::generate1DTree(int numOfGenerations, volume &thevol, dotObj &bo
 	return;
 }
 
-void simulation::generate3DPointCloudFromTree(int numOfGenerations, int density, float radiusMultiplier, dotObj oneDRep, dotObj hostMesh, dotObj &treePCexp, std::string id, bool useHostMeshForPointCloud)
+void simulation::generate3DPointCloudFromTree(int numOfGenerations, int density, float radiusMultiplier, dotObj oneDRep, dotObj hostMesh, dotObj& treePCexp, std::string id, bool useHostMeshForPointCloud)
 {
-	treeGeneration *treeTwo;
+	treeGeneration* treeTwo;
 	treeTwo = new treeGeneration();
 	treeTwo->oneDimension = oneDRep;
 	std::cout << std::endl << "Action :: Building point cloud" << std::endl;
@@ -1882,8 +1884,8 @@ void simulation::generate3DPointCloudFromTree(int numOfGenerations, int density,
 	return;
 }
 
-void simulation::generate3DPointCloudFromTree(int density, float radiusMultiplier, dotObj oneDRep, dotObj &treePCexp, std::vector<float> diameters, std::string id) {
-	treeGeneration *treeTwo;
+void simulation::generate3DPointCloudFromTree(int density, float radiusMultiplier, dotObj oneDRep, dotObj& treePCexp, std::vector<float> diameters, std::string id) {
+	treeGeneration* treeTwo;
 	treeTwo = new treeGeneration();
 	treeTwo->oneDimension = oneDRep;
 	std::cout << std::endl << "Action :: Building point cloud" << std::endl;
@@ -1900,8 +1902,8 @@ void simulation::generate3DPointCloudFromGraph(
 	int numOfGenerations,
 	int density,
 	float radiusMultiplier,
-	ggraph * theGraph,
-	dotObj * solid) {
+	ggraph* theGraph,
+	dotObj* solid) {
 	std::vector<gnode*> A;
 	bool doClean = true;
 
@@ -1934,8 +1936,8 @@ void simulation::generate3DPointCloudFromGraph(
 		for (int i = 0; i < B.size(); i++) {
 			if (!B.empty()) {
 				if (B[i]->meshVerticesPositions.empty()) {
-					dotObj * geom = new dotObj();
-					treeGeneration*treeTwo = new treeGeneration();
+					dotObj* geom = new dotObj();
+					treeGeneration* treeTwo = new treeGeneration();
 					treeTwo->generateCloudForLineSegment(
 						geom,
 						A.back()->position,
@@ -1945,16 +1947,16 @@ void simulation::generate3DPointCloudFromGraph(
 						0.27,
 						0,
 						true,
-						radiusMultiplier*A.back()->diameter,
-						radiusMultiplier*B[i]->diameter
+						radiusMultiplier * A.back()->diameter,
+						radiusMultiplier * B[i]->diameter
 					);
 					solid->vertices.insert(std::end(solid->vertices), std::begin(geom->vertices), std::end(geom->vertices));
 					delete geom;
 					delete treeTwo;
 
 					if (B[i]->isTerminal || B[i]->doStop) {
-						dotObj * geom = new dotObj();
-						treeGeneration*treeTwo = new treeGeneration();
+						dotObj* geom = new dotObj();
+						treeGeneration* treeTwo = new treeGeneration();
 						treeTwo->generateCloudForLineTip(
 							geom,
 							A.back()->position,
@@ -1991,8 +1993,8 @@ void simulation::generate3DPointCloudFromGraph(
 		for (int i = 0; i < B.size(); i++) {
 			if (!B.empty()) {
 				if (B[i]->meshVerticesPositions.empty()) {
-					dotObj * geom = new dotObj();
-					treeGeneration*treeTwo = new treeGeneration();
+					dotObj* geom = new dotObj();
+					treeGeneration* treeTwo = new treeGeneration();
 					treeTwo->generateCloudForLineSegment(
 						geom,
 						A.back()->position,
@@ -2002,16 +2004,16 @@ void simulation::generate3DPointCloudFromGraph(
 						0.27,
 						0,
 						true,
-						radiusMultiplier*A.back()->diameter,
-						radiusMultiplier*B[i]->diameter
+						radiusMultiplier * A.back()->diameter,
+						radiusMultiplier * B[i]->diameter
 					);
 					solid->vertices.insert(std::end(solid->vertices), std::begin(geom->vertices), std::end(geom->vertices));
 					delete geom;
 					delete treeTwo;
 
 					if (B[i]->isTerminal || B[i]->doStop) {
-						dotObj * geom = new dotObj();
-						treeGeneration*treeTwo = new treeGeneration();
+						dotObj* geom = new dotObj();
+						treeGeneration* treeTwo = new treeGeneration();
 						treeTwo->generateCloudForLineTip(
 							geom,
 							A.back()->position,
@@ -2047,7 +2049,7 @@ void simulation::generate3DPointCloudFromGraph(
 		std::vector<gnode*> B = A.back()->nextNodesPtr;
 		for (int i = 0; i < B.size(); i++) {
 			if (!B.empty()) {
-				dotObj * geom = new dotObj();
+				dotObj* geom = new dotObj();
 				geom->functions.eigentostdvec(B[i]->meshVerticesPositions, geom->vertices);
 				solid->vertices.insert(std::end(solid->vertices), std::begin(geom->vertices), std::end(geom->vertices));
 				delete geom;
@@ -2063,7 +2065,7 @@ void simulation::generate3DPointCloudFromGraph(
 
 	//Clean up
 	if (doClean) {
-		dotObj * solidClear = new dotObj;
+		dotObj* solidClear = new dotObj;
 		for (int j = 0; j < solid->vertices.size(); j++) {
 			//int lastval = 0;
 			//int progress = (int)(j / (solid->vertices.size() / 100));
@@ -2092,7 +2094,7 @@ void simulation::generate3DPointCloudFromGraph(
 								doKeep = false;
 							}
 						}
-						if ((B[i]->isTerminal || B[i]->doStop) && (0.1*(a - b).norm() > (x - b).norm())) {
+						if ((B[i]->isTerminal || B[i]->doStop) && (0.1 * (a - b).norm() > (x - b).norm())) {
 							doKeep = true;
 						}
 					}
@@ -2127,7 +2129,7 @@ void simulation::generate3DPointCloudFromGraph(
 								doKeep = false;
 							}
 						}
-						if ((B[i]->isTerminal || B[i]->doStop) && (0.1*(a - b).norm() > (x - b).norm())) {
+						if ((B[i]->isTerminal || B[i]->doStop) && (0.1 * (a - b).norm() > (x - b).norm())) {
 							doKeep = true;
 						}
 					}
@@ -2174,8 +2176,8 @@ void simulation::generate3DPointCloudFromGraph(
 	return;
 }
 
-void simulation::segmentTree2(dotObj &oneDL, dotObj &oneDR, dotObj &recModel, std::string result, std::string keyword) {
-	treeGeneration *treeTwo;
+void simulation::segmentTree2(dotObj& oneDL, dotObj& oneDR, dotObj& recModel, std::string result, std::string keyword) {
+	treeGeneration* treeTwo;
 	treeTwo = new treeGeneration();
 
 	treeTwo->reconstructedModel = recModel;
@@ -2274,8 +2276,8 @@ void simulation::segmentTree2(dotObj &oneDL, dotObj &oneDR, dotObj &recModel, st
 	return;
 }
 
-void simulation::flatten(dotObj &oneDL, dotObj &oneDR, dotObj &recModel, std::string result, std::string keyword) {
-	treeGeneration *treeTwo;
+void simulation::flatten(dotObj& oneDL, dotObj& oneDR, dotObj& recModel, std::string result, std::string keyword) {
+	treeGeneration* treeTwo;
 	treeTwo = new treeGeneration();
 
 	treeTwo->reconstructedModel = recModel;
@@ -2390,26 +2392,26 @@ void simulation::extendBronchialTree(void) {
 	int density = 500;
 	int poissonDepth = 11;										// poissonDepth->value()
 	std::string path = "models\\";  //= workspacePath->text().toStdString() + "/";
-	std::string boundaryMeshR = path + "L2.obj";					//= rightLungGeomPath->text().toStdString();
-	std::string boundaryMeshL = path + "L1.obj";				//= leftLungGeomPath->text().toStdString();
-	std::string existingModelMesh = path + "lungPartsFull.obj";	//= existingGeomPath->text().toStdString();
-	dotObj * boundaryR = new dotObj();
+	std::string boundaryMeshR =   "L2.obj";					//= rightLungGeomPath->text().toStdString();
+	std::string boundaryMeshL =   "L1.obj";				//= leftLungGeomPath->text().toStdString();
+	std::string existingModelMesh =   "lungPartsFull.obj";	//= existingGeomPath->text().toStdString();
+	dotObj* boundaryR = new dotObj();
 	boundaryR->initializeFromFile(boundaryMeshR);
-	dotObj * boundaryL = new dotObj();
+	dotObj* boundaryL = new dotObj();
 	boundaryL->initializeFromFile(boundaryMeshL);
 	std::cout << std::endl << "Model :: Existing geometry " << std::endl;
-	dotObj *existingModel = new dotObj();
+	dotObj* existingModel = new dotObj();
 	existingModel->initializeFromFile(existingModelMesh);
-	dotObj * trachea = new dotObj();
-	trachea->initializeFromFile(path + "tracheav8PC.obj");
-	if (strlen(path.c_str()) > 2) {
-	}
-	else {
-		std::cout << "Error: Enter valid workspace path" << std::endl;
-		return;
-	}
+	dotObj* trachea = new dotObj();
+	trachea->initializeFromFile(  "tracheav8PC.obj");
+	//if (strlen(path.c_str()) > 2) {
+	//}
+	//else {
+	//	std::cout << "Error: Enter valid workspace path" << std::endl;
+	//	return;
+	//}
 
-	status * st = new status();
+	status* st = new status();
 
 	this->extendBronchialTree(
 		buildVolumes,
@@ -2448,14 +2450,14 @@ void simulation::extendBronchialTree(
 	int density,
 	int poissonDepth,
 	std::string path,
-	dotObj * boundaryR,
-	dotObj * boundaryL,
-	dotObj * trachea,
-	dotObj * existingModel,
-	status * stat,
+	dotObj* boundaryR,
+	dotObj* boundaryL,
+	dotObj* trachea,
+	dotObj* existingModel,
+	status* stat,
 	bool verbose) {
-	dotObj * hostR = new dotObj();
-	dotObj * hostL = new dotObj();
+	dotObj* hostR = new dotObj();
+	dotObj* hostL = new dotObj();
 
 	bool initvols = buildVolumes;
 	bool initskeletonization = buildCenterline;
@@ -2496,12 +2498,12 @@ void simulation::extendBronchialTree(
 	stat->action = "Simulation :: Commencing";
 
 	std::cout << std::endl << "Simulation :: Commencing" << std::endl;
-	simulation *sim;
-	volume * volLeft;
+	simulation* sim;
+	volume* volLeft;
 
-	volume * volRight;
-	dotObj * skelLeftGen;
-	dotObj * skelLeftRight;
+	volume* volRight;
+	dotObj* skelLeftGen;
+	dotObj* skelLeftRight;
 	dotObj cachedModel, skel;
 
 	//BUILD VOLUMES
@@ -2521,8 +2523,8 @@ void simulation::extendBronchialTree(
 		delete sim;
 	}
 
-	dotObj * skeletonPart1 = new dotObj();
-	dotObj * skeletonPart2 = new dotObj();
+	dotObj* skeletonPart1 = new dotObj();
+	dotObj* skeletonPart2 = new dotObj();
 
 	//BUILD SKELETON
 	if (buildSkel) {
@@ -2590,8 +2592,8 @@ void simulation::extendBronchialTree(
 		}
 	}
 
-	dotObj * skeletonLeftGen = new dotObj();
-	dotObj * skeletonRightGen = new dotObj();
+	dotObj* skeletonLeftGen = new dotObj();
+	dotObj* skeletonRightGen = new dotObj();
 
 	//BUILD 1D
 	if (build1D) {
@@ -2599,16 +2601,16 @@ void simulation::extendBronchialTree(
 		std::cout << "Extending geometry" << std::endl;
 		sim = new simulation();
 		sim->generate1DTree(treeDepth, *volLeft, *boundaryL, *hostL, *skeletonLeftGen);
-		if (verbose) skeletonLeftGen->exportToFile(path + "skeletonLeftGenerated");
+		if (verbose) skeletonLeftGen->exportToFile(  "skeletonLeftGenerated");
 		delete sim;
 		sim = new simulation();
 		sim->generate1DTree(treeDepth, *volRight, *boundaryR, *hostR, *skeletonRightGen);
-		if (verbose) skeletonRightGen->exportToFile(path + "skeletonRightGenerated");
+		if (verbose) skeletonRightGen->exportToFile(  "skeletonRightGenerated");
 		delete sim;
 	}
 
-	dotObj * treePCExpL = new dotObj();
-	dotObj * treePCExpR = new dotObj();
+	dotObj* treePCExpL = new dotObj();
+	dotObj* treePCExpR = new dotObj();
 
 	//BUILD 3D
 	if (buildPC) {
@@ -2624,18 +2626,18 @@ void simulation::extendBronchialTree(
 
 	//BUILD PLY FILE
 	if (buildPLY) {
-		treePCExpR->exportToXYZ(path + "lungPCRec", true);
-		treePCExpL->exportToXYZ(path + "lungPCRec", false);
-		dotObj * trachea = new dotObj();
-		trachea->initializeFromFile(path + "tracheav8PC.obj");
-		trachea->exportToXYZ(path + "lungPCRec", false);
+		treePCExpR->exportToXYZ(  "lungPCRec", true);
+		treePCExpL->exportToXYZ(  "lungPCRec", false);
+		dotObj* trachea = new dotObj();
+		trachea->initializeFromFile(  "tracheav8PC.obj");
+		trachea->exportToXYZ(  "lungPCRec", false);
 		delete trachea;
 	}
 
 	//Calculation of normals and smoothing
 	if (false) {
 		std::cout << "Calculating normals" << std::endl;
-		std::string strname = path + "lungPCRec.xyz";
+		std::string strname =   "lungPCRec.xyz";
 		const char* fname = strname.c_str();
 		// Reads a .xyz point set file in points[].
 		std::vector<PointEx> pointsL;
@@ -2665,7 +2667,7 @@ void simulation::extendBronchialTree(
 				require_uniform_sampling
 				);
 
-		std::ofstream out(path + "WLOP_lungPCRec.xyz");
+		std::ofstream out(  "WLOP_lungPCRec.xyz");
 		if (!out || !CGAL::write_xyz_points(
 			out, output.begin(), output.end()))
 		{
@@ -2676,7 +2678,7 @@ void simulation::extendBronchialTree(
 	if (buildNormals) {
 		stat->action = "Calculating normals";
 		std::cout << "Calculating normals" << std::endl;
-		std::string strname = path + "lungPCRec.xyz";
+		std::string strname =   "lungPCRec.xyz";
 		const char* fname = strname.c_str();
 		// Reads a .xyz point set file in points[].
 		std::vector<PointEx> pointsL;
@@ -2749,7 +2751,7 @@ void simulation::extendBronchialTree(
 		// if you plan to call a reconstruction algorithm that expects oriented normals.
 		points.erase(unoriented_points_begin, points.end());
 
-		std::ofstream out(path + "lungPC.ply");
+		std::ofstream out(  "lungPC.ply");
 		if (!out ||
 			!CGAL::write_ply_points_and_normals(
 				out, points.begin(), points.end(),
@@ -2778,8 +2780,8 @@ void simulation::extendBronchialTree(
 				sharpness_angle);
 		}
 
-		std::ofstream outSmoothedply(path + "lungPCSmoothed.ply");
-		std::ofstream outSmoothedxyz(path + "lungPCSmoothed.xyz");
+		std::ofstream outSmoothedply(  "lungPCSmoothed.ply");
+		std::ofstream outSmoothedxyz(  "lungPCSmoothed.xyz");
 		if (!outSmoothedply ||
 			!CGAL::write_ply_points_and_normals(
 				outSmoothedply, points.begin(), points.end(),
@@ -2802,12 +2804,12 @@ void simulation::extendBronchialTree(
 	if (build3D)
 	{
 		stat->action = "Poisson Recontruction Commencing";
-		dotObj *mm;
+		dotObj* mm;
 		std::cout << "Poisson Recontruction Commencing" << std::endl;
-		//PoissonRecon(path + "lungPCSmoothed.ply", path + "lungPC.screened.ply",poissonDepth->value());
-		SSDRecon(path + "lungPCSmoothed.ply", path + "lungPC.screened.ply", poissonDepth, mm);
-		//poissonRec(path + "lungPCSmoothed.xyz", path + "lungPCscreened.off");
-		//isotropicRemesh(path + "lungPCscreened.off", path + "lungPCscreenedIso.off");
+		//PoissonRecon(  "lungPCSmoothed.ply",   "lungPC.screened.ply",poissonDepth->value());
+		SSDRecon(  "lungPCSmoothed.ply",   "lungPC.screened.ply", poissonDepth, mm);
+		//poissonRec(  "lungPCSmoothed.xyz",   "lungPCscreened.off");
+		//isotropicRemesh(  "lungPCscreened.off",   "lungPCscreenedIso.off");
 		std::cout << "Poisson Recontruction Complete" << std::endl;
 	}
 
@@ -2820,27 +2822,27 @@ void simulation::extendBronchialTree(
 	std::cout << "Segmentation" << std::endl;
 	//Reconstructed
 	dotObj * Reconstructed = new dotObj();
-	Reconstructed->initializeFromPLY(path + "lungPC.screened.ply");
+	Reconstructed->initializeFromPLY(  "lungPC.screened.ply");
 	std::cout << "Recalculate normals" << std::endl;
 	Reconstructed->recalculateNormals();
-	Reconstructed->exportToFile(path + "lungReconstructed");
+	Reconstructed->exportToFile(  "lungReconstructed");
 	Reconstructed->smoothingSparse("taubin", "weighted", 100, -0.7, 0.55);
 	//Reconstructed->smoothingSparse("taubin", "weighted", 200, -0.7, 0.5);
 	std::cout << "Recalculate normals" << std::endl;
 	Reconstructed->recalculateNormals();
-	Reconstructed->exportToFile(path + "lungReconstructedSmooth");
+	Reconstructed->exportToFile(  "lungReconstructedSmooth");
 
 	//Left 1D
-	std::string oneDR = path + "skeletonRightGenerated.obj";
+	std::string oneDR =   "skeletonRightGenerated.obj";
 	dotObj *oneDModelR = new dotObj();
 	oneDModelR->initializeFromFile(oneDR);
 
 	//Right 1D
-	std::string oneDL = path + "skeletonLeftGenerated.obj";
+	std::string oneDL =   "skeletonLeftGenerated.obj";
 	dotObj *oneDModelL = new dotObj();
 	oneDModelL->initializeFromFile(oneDL);
 
-	sim->flatten(*oneDModelL, *oneDModelR, *Reconstructed, path + "lungReconstructedFlattened", "obj");
+	sim->flatten(*oneDModelL, *oneDModelR, *Reconstructed,   "lungReconstructedFlattened", "obj");
 
 	delete oneDModelR;
 	delete oneDModelL;
@@ -2854,19 +2856,19 @@ void simulation::extendBronchialTree(
 	std::cout << "Segmentation" << std::endl;
 	//Reconstructed
 	dotObj * Reconstructed = new dotObj();
-	//Reconstructed->initializeFromFile(path + "lungReconstructedFlattened.obj");
-	Reconstructed->initializeFromFile(path + "lungReconstructedSmooth.obj");
+	//Reconstructed->initializeFromFile(  "lungReconstructedFlattened.obj");
+	Reconstructed->initializeFromFile(  "lungReconstructedSmooth.obj");
 	//Left 1D
-	std::string oneDR = path + "skeletonRightGenerated.obj";
+	std::string oneDR =   "skeletonRightGenerated.obj";
 	dotObj *oneDModelR = new dotObj();
 	oneDModelR->initializeFromFile(oneDR);
 
 	//Right 1D
-	std::string oneDL = path + "skeletonLeftGenerated.obj";
+	std::string oneDL =   "skeletonLeftGenerated.obj";
 	dotObj *oneDModelL = new dotObj();
 	oneDModelL->initializeFromFile(oneDL);
 
-	sim->segmentTree2(*oneDModelL, *oneDModelR, *Reconstructed, path + "lungReconstructedSegmented", "full");
+	sim->segmentTree2(*oneDModelL, *oneDModelR, *Reconstructed,   "lungReconstructedSegmented", "full");
 	delete oneDModelR;
 	delete oneDModelL;
 	//delete recModel;
@@ -2890,14 +2892,14 @@ void simulation::extendBronchialTreeV2(
 	int density,
 	int poissonDepth,
 	std::string path,
-	dotObj * boundaryR,
-	dotObj * boundaryL,
-	dotObj * trachea,
-	dotObj * existingModel,
-	status * stat,
+	dotObj* boundaryR,
+	dotObj* boundaryL,
+	dotObj* trachea,
+	dotObj* existingModel,
+	status* stat,
 	bool verbose) {
-	std::cout << "Input desired depth of output 3D Model: ";
-	std::cin >> depth;
+	/*std::cout << "Input desired depth of output 3D Model: ";
+	std::cin >> depth;*/
 	bool initvols = buildVolumes;
 	bool initskeletonization = buildCenterline;
 	bool init1D = build1DModel;
@@ -2934,19 +2936,19 @@ void simulation::extendBronchialTreeV2(
 	}
 	stat->action = "Simulation :: Commencing";
 	std::cout << std::endl << "Simulation :: Commencing" << std::endl;
-	simulation *sim;
-	volume * volLeft;
-	volume * volRight;
-	dotObj * skelLeftGen;
-	dotObj * skelLeftRight;
+	simulation* sim;
+	volume* volLeft;
+	volume* volRight;
+	dotObj* skelLeftGen;
+	dotObj* skelLeftRight;
 	dotObj cachedModel, skel;
-	dotObj * hostR = new dotObj();
-	dotObj * hostL = new dotObj();
-	dotObj * recon = new dotObj();
-	dotObj * fullTree = new dotObj();
+	dotObj* hostR = new dotObj();
+	dotObj* hostL = new dotObj();
+	dotObj* recon = new dotObj();
+	dotObj* fullTree = new dotObj();
 	trachea = new dotObj;
-	dotObj * skeletonLeftGen = new dotObj();
-	dotObj * skeletonRightGen = new dotObj();
+	dotObj* skeletonLeftGen = new dotObj();
+	dotObj* skeletonRightGen = new dotObj();
 
 	//BUILD VOLUMES
 	if (buildVolumes) {
@@ -2970,17 +2972,17 @@ void simulation::extendBronchialTreeV2(
 		stat->action = "Build Skeleton";
 		cachedModel = *existingModel;
 		//cachedModel.smoothingSparse("taubin", "onoff", 2000, -0.95, 0.35);
-		//cachedModel.exportToFile(path + "smoothed");
+		//cachedModel.exportToFile(  "smoothed");
 
 		skel = cachedModel.mcfskel();
 
-		skel.exportToFile(path + "_1_skeletonRaw");
+		skel.exportToFile(  "_1_skeletonRaw");
 
 		skel.mcfskelRefineStepOne(8);
 		skel.mcfskelRefineStepOne(8);
 		skel.mcfskelRefineStepOne(8);
 		skel.mcfskelRefineStepTwo();
-		skel.exportToFile(path + "_2_skeletonRefined");
+		skel.exportToFile(  "_2_skeletonRefined");
 
 		//skel.mcfskelRefine();
 		//skel.mcfskelRefine();
@@ -2989,9 +2991,9 @@ void simulation::extendBronchialTreeV2(
 		skk = skel.mAnalysis.graph;
 		dotObj * sk = new dotObj();
 		skk.ggraph2Model(sk);
-		sk->exportToFile(path + "skOut2");
+		sk->exportToFile(  "skOut2");
 		skel = *sk;
-		skel.exportToFile(path + "skeletonOut2");*/
+		skel.exportToFile(  "skeletonOut2");*/
 		//=============================================================
 		/*
 		dotObj * treePCExp;
@@ -3012,14 +3014,14 @@ void simulation::extendBronchialTreeV2(
 		rebuilt.init->nextBifurcationPtr[0]->nextNodesPtr[0]->nextMedianPtr->nextNodesPtr[0]->doStop = true;
 		rebuilt.init->nextBifurcationPtr[0]->nextNodesPtr[1]->nextMedianPtr->nextNodesPtr[0]->doStop = true;
 		rebuilt.ggraph2Model(recon);
-		recon->exportToFile(path + "_3_trachea_centerline");
+		recon->exportToFile(  "_3_trachea_centerline");
 		//===========================================================
 		rebuilt = existingModel->mAnalysis.graph;
 		trachea = new dotObj();
 		rebuilt.init->nextBifurcationPtr[0]->nextNodesPtr[0]->nextMedianPtr->nextNodesPtr[0]->doStop = true;
 		rebuilt.init->nextBifurcationPtr[0]->nextNodesPtr[1]->nextMedianPtr->nextNodesPtr[0]->doStop = true;
 		rebuilt.ggraph2ModelV(trachea);
-		trachea->exportToFile(path + "_4_trachea");
+		trachea->exportToFile(  "_4_trachea");
 		//=============================================================
 		/*std::vector<gnode*> A;
 		A.clear();
@@ -3033,7 +3035,7 @@ void simulation::extendBronchialTreeV2(
 		}
 		}
 		}*/
-		gnode * g;
+		gnode* g;
 		//=============================================================
 		existingModel->graphBasedAnalysis(skel);
 		for (int i = 0; i < existingModel->mAnalysis.graph.nodes.size(); i++) {
@@ -3053,7 +3055,7 @@ void simulation::extendBronchialTreeV2(
 		rebuilt.ggraph2Model(hostL, true);
 		hostL->mAnalysis.generateGraph(*hostL, 0);
 		hostL->mAnalysis.graph.init->diameter = g->diameter;
-		hostL->exportToFile(path + "_5_host_centerline_left");
+		hostL->exportToFile(  "_5_host_centerline_left");
 		//=============================================================
 		existingModel->graphBasedAnalysis(skel);
 		for (int i = 0; i < existingModel->mAnalysis.graph.nodes.size(); i++) {
@@ -3074,11 +3076,11 @@ void simulation::extendBronchialTreeV2(
 		rebuilt.ggraph2Model(hostR, true);
 		hostR->mAnalysis.generateGraph(*hostR, 0);
 		hostR->mAnalysis.graph.init->diameter = g->diameter;
-		hostR->exportToFile(path + "_5_host_centerline_right");
+		hostR->exportToFile(  "_5_host_centerline_right");
 	}
 	//BUILD 1D
 
-	dotObj * fullTreeExtendedModel = new dotObj();
+	dotObj* fullTreeExtendedModel = new dotObj();
 	ggraph fullTreeExtendedGraph;
 
 	if (build1D) {
@@ -3086,11 +3088,11 @@ void simulation::extendBronchialTreeV2(
 		std::cout << "Extending geometry" << std::endl;
 		sim = new simulation();
 		sim->generate1DTree(treeDepth, *volLeft, *boundaryL, *hostL, *skeletonLeftGen);
-		if (verbose) skeletonLeftGen->exportToFile(path + "_6_skeletonLeftGenerated");
+		if (verbose) skeletonLeftGen->exportToFile(  "_6_skeletonLeftGenerated");
 		delete sim;
 		sim = new simulation();
 		sim->generate1DTree(treeDepth, *volRight, *boundaryR, *hostR, *skeletonRightGen);
-		if (verbose) skeletonRightGen->exportToFile(path + "_6_skeletonRightGenerated");
+		if (verbose) skeletonRightGen->exportToFile(  "_6_skeletonRightGenerated");
 		delete sim;
 		skeletonLeftGen->mAnalysis.generateGraph(*skeletonLeftGen, 0);
 		skeletonLeftGen->mAnalysis.graph.init->diameter = hostL->mAnalysis.graph.init->diameter;
@@ -3104,7 +3106,7 @@ void simulation::extendBronchialTreeV2(
 		existingModel->graphBasedAnalysis(skel);
 
 		fullTreeGraph = existingModel->mAnalysis.graph;
-		dotObj * fullTreeModel = new dotObj();
+		dotObj* fullTreeModel = new dotObj();
 		if (fullTreeGraph.init->nextBifurcationPtr[0]->nextNodesPtr[0]->isLeft) {
 			fullTreeGraph.init->nextBifurcationPtr[0]->nextNodesPtr[0]->nextMedianPtr->nextNodesPtr[0] = skeletonLeftGen->mAnalysis.graph.init;
 			fullTreeGraph.init->nextBifurcationPtr[0]->nextBifurcationPtr[0] = skeletonLeftGen->mAnalysis.graph.init->nextBifurcationPtr[0];
@@ -3121,17 +3123,17 @@ void simulation::extendBronchialTreeV2(
 		}
 
 		fullTreeGraph.ggraph2Model(fullTreeModel);
-		fullTreeModel->exportToFile(path + "_7_fullTree");
+		fullTreeModel->exportToFile(  "_7_fullTree");
 		fullTreeModel->splitSkeletonEdges(0.8);
 		fullTreeModel->mAnalysis.generateGraph(*fullTreeModel, 0);
 		fullTreeExtendedGraph = fullTreeModel->mAnalysis.graph;
 
 		fullTreeExtendedGraph.ggraph2Model(fullTreeExtendedModel);
-		fullTreeExtendedModel->exportToFile(path + "_7_fullTreeOversampled");
+		fullTreeExtendedModel->exportToFile(  "_7_fullTreeOversampled");
 	}
 
-	dotObj * treePCExpL = new dotObj();
-	dotObj * treePCExpR = new dotObj();
+	dotObj* treePCExpL = new dotObj();
+	dotObj* treePCExpR = new dotObj();
 
 	//BUILD 3D
 	if (buildPC) {
@@ -3162,7 +3164,7 @@ void simulation::extendBronchialTreeV2(
 		dotObj * fullModelCenteline = new dotObj();
 		rebuilt.ggraph2Model(fullModelCenteline, false);
 		fullModelCenteline->mAnalysis.generateGraph(*fullModelCenteline, 0);
-		fullModelCenteline->exportToFile(path + "fullModelCenteline");
+		fullModelCenteline->exportToFile(  "fullModelCenteline");
 		*/
 
 		treePCExpR->exportToXYZ("lungPCRec", true);
@@ -3173,7 +3175,7 @@ void simulation::extendBronchialTreeV2(
 	//Calculation of normals and smoothing
 	/*if (false){
 	std::cout << "Calculating normals" << std::endl;
-	std::string strname = path + "lungPCRec.xyz";
+	std::string strname =   "lungPCRec.xyz";
 	const char* fname = strname.c_str();
 	// Reads a .xyz point set file in points[].
 	std::vector<PointEx> pointsL;
@@ -3201,7 +3203,7 @@ void simulation::extendBronchialTreeV2(
 	max_iter_number,
 	require_uniform_sampling
 	);
-	std::ofstream out(path + "WLOP_lungPCRec.xyz");
+	std::ofstream out(  "WLOP_lungPCRec.xyz");
 	if (!out || !CGAL::write_xyz_points(
 	out, output.begin(), output.end()))
 	{
@@ -3334,26 +3336,26 @@ void simulation::extendBronchialTreeV2(
 		}
 	}
 
-	dotObj * mMOdel = new dotObj;
+	dotObj* mMOdel = new dotObj;
 
 	if (build3D)
 	{
 		stat->action = "Poisson Recontruction Commencing";
 		std::cout << "Poisson Recontruction Commencing" << std::endl;
-		//PoissonRecon(path + "lungPCSmoothed.ply", path + "lungPC.screened.ply",poissonDepth->value());
+		//PoissonRecon(  "lungPCSmoothed.ply",   "lungPC.screened.ply",poissonDepth->value());
 		SSDRecon("lungPCSmoothed.ply", "lungPC.screened.ply", poissonDepth, mMOdel);
-		//poissonRec(path + "lungPCSmoothed.xyz", path + "lungPCscreened.off");
-		//isotropicRemesh(path + "lungPCscreened.off", path + "lungPCscreenedIso.off");
+		//poissonRec(  "lungPCSmoothed.xyz",   "lungPCscreened.off");
+		//isotropicRemesh(  "lungPCscreened.off",   "lungPCscreenedIso.off");
 		std::cout << "Poisson Recontruction Complete" << std::endl;
 		mMOdel->recalculateNormals();
 
-		mMOdel->exportToFile(path + "_9_fullReconstructedModel");
+		mMOdel->exportToFile(  "_9_fullReconstructedModel");
 
 		mMOdel->simplificationEdgeCollapse(1600000);
 
 		mMOdel->recalculateNormals();
 
-		mMOdel->exportToFile(path + "_9_simplifiedModel");
+		mMOdel->exportToFile(  "_9_simplifiedModel");
 
 		//if (lungmodel.size() > 0)lungmodel.back() = *mMOdel;
 
@@ -3364,7 +3366,7 @@ void simulation::extendBronchialTreeV2(
 	namespace params = PMP::parameters;
 
 	dotObj* cubef = new dotObj();
-	cubef->initializeFromFile(path + "cubef.obj");
+	cubef->initializeFromFile(  "cubef.obj");
 
 	std::stringstream modelmeshStream;
 
@@ -3375,7 +3377,7 @@ void simulation::extendBronchialTreeV2(
 		bool valid_union = true;
 		for (int i = 0; i < mMOdel->mAnalysis.graph.nodes.size(); i++) {
 			if (mMOdel->mAnalysis.graph.nodes[i].isTerminal) {
-				dotObj * newcube = new dotObj();
+				dotObj* newcube = new dotObj();
 				*newcube = *cubef;
 				Vector3f direction = mMOdel->mAnalysis.graph.nodes[i].previousNodePtr->position - mMOdel->mAnalysis.graph.nodes[i].position;
 				float d = 2 * mMOdel->mAnalysis.graph.nodes[i].diameter;
@@ -3383,7 +3385,7 @@ void simulation::extendBronchialTreeV2(
 					newcube->scale(d, d, d);
 					newcube->rotate(direction);
 					direction.normalize();
-					Vector3f translatePosition = (mMOdel->mAnalysis.graph.nodes[i].position - 0.7*d*direction);
+					Vector3f translatePosition = (mMOdel->mAnalysis.graph.nodes[i].position - 0.7 * d * direction);
 					newcube->translate(translatePosition);
 					std::stringstream input = newcube->toOFF();
 					if (input) {
@@ -3396,7 +3398,7 @@ void simulation::extendBronchialTreeV2(
 				}
 			}
 			if (mMOdel->mAnalysis.graph.nodes[i].isInlet) {
-				dotObj * newcube = new dotObj();
+				dotObj* newcube = new dotObj();
 				*newcube = *cubef;
 				Vector3f direction = mMOdel->mAnalysis.graph.nodes[i].nextNodesPtr[0]->position - mMOdel->mAnalysis.graph.nodes[i].position;
 				float d = 2 * mMOdel->mAnalysis.graph.nodes[i].nextNodesPtr[0]->diameter;
@@ -3404,7 +3406,7 @@ void simulation::extendBronchialTreeV2(
 					newcube->scale(d, d, d);
 					newcube->rotate(direction);
 					direction.normalize();
-					Vector3f translatePosition = (mMOdel->mAnalysis.graph.nodes[i].position - 0.7*d*direction);
+					Vector3f translatePosition = (mMOdel->mAnalysis.graph.nodes[i].position - 0.7 * d * direction);
 					newcube->translate(translatePosition);
 					std::stringstream input = newcube->toOFF();
 					if (input) {
@@ -3420,7 +3422,7 @@ void simulation::extendBronchialTreeV2(
 		if (valid_union)
 		{
 			std::cout << "Union was successfully computed\n";
-			std::ofstream output(path + "union.off");
+			std::ofstream output(  "union.off");
 			output << out;
 
 			std::stringstream model = mMOdel->toOFF();
@@ -3445,7 +3447,7 @@ void simulation::extendBronchialTreeV2(
 			if (valid_difference)
 			{
 				std::cout << "Difference was successfully computed\n";
-				std::ofstream output1(path + "difference.off");
+				std::ofstream output1(  "difference.off");
 				output1 << modelmesh;
 			}
 			else {
@@ -3492,13 +3494,13 @@ void simulation::extendBronchialTreeV2(
 
 	if (segmentModel) {
 		std::string type = "OFF";
-		dotObj * Reconstructed = new dotObj();
+		dotObj* Reconstructed = new dotObj();
 		std::cout << "Segment Model" << std::endl;
 		Reconstructed->initializeFromFile(modelmeshStream, type);
 		Reconstructed->recalculateNormals();
 		Reconstructed->segmentationMode = "NORMALS";
 		Reconstructed->segmentByGeneration(*fullTreeExtendedModel);
-		Reconstructed->exportToFileSegmentedPerFace(path + "final_segmented_model_2.obj");
+		Reconstructed->exportToFileSegmentedPerFace(  "final_segmented_model_2.obj");
 		*existingModel = *Reconstructed;
 	}
 
@@ -3514,27 +3516,27 @@ void simulation::extendBronchialTreeV2(
 	std::cout << "Segmentation" << std::endl;
 	//Reconstructed
 	dotObj * Reconstructed = new dotObj();
-	Reconstructed->initializeFromPLY(path + "lungPC.screened.ply");
+	Reconstructed->initializeFromPLY(  "lungPC.screened.ply");
 	std::cout << "Recalculate normals" << std::endl;
 	Reconstructed->recalculateNormals();
-	Reconstructed->exportToFile(path + "lungReconstructed");
+	Reconstructed->exportToFile(  "lungReconstructed");
 	Reconstructed->smoothingSparse("taubin", "weighted", 100, -0.7, 0.55);
 	//Reconstructed->smoothingSparse("taubin", "weighted", 200, -0.7, 0.5);
 	std::cout << "Recalculate normals" << std::endl;
 	Reconstructed->recalculateNormals();
-	Reconstructed->exportToFile(path + "lungReconstructedSmooth");
+	Reconstructed->exportToFile(  "lungReconstructedSmooth");
 
 	//Left 1D
-	std::string oneDR = path + "skeletonRightGenerated.obj";
+	std::string oneDR =   "skeletonRightGenerated.obj";
 	dotObj *oneDModelR = new dotObj();
 	oneDModelR->initializeFromFile(oneDR);
 
 	//Right 1D
-	std::string oneDL = path + "skeletonLeftGenerated.obj";
+	std::string oneDL =   "skeletonLeftGenerated.obj";
 	dotObj *oneDModelL = new dotObj();
 	oneDModelL->initializeFromFile(oneDL);
 
-	sim->flatten(*oneDModelL, *oneDModelR, *Reconstructed, path + "lungReconstructedFlattened", "obj");
+	sim->flatten(*oneDModelL, *oneDModelR, *Reconstructed,   "lungReconstructedFlattened", "obj");
 
 	delete oneDModelR;
 	delete oneDModelL;
@@ -3548,19 +3550,19 @@ void simulation::extendBronchialTreeV2(
 	std::cout << "Segmentation" << std::endl;
 	//Reconstructed
 	dotObj * Reconstructed = new dotObj();
-	//Reconstructed->initializeFromFile(path + "lungReconstructedFlattened.obj");
-	Reconstructed->initializeFromFile(path + "lungReconstructedSmooth.obj");
+	//Reconstructed->initializeFromFile(  "lungReconstructedFlattened.obj");
+	Reconstructed->initializeFromFile(  "lungReconstructedSmooth.obj");
 	//Left 1D
-	std::string oneDR = path + "skeletonRightGenerated.obj";
+	std::string oneDR =   "skeletonRightGenerated.obj";
 	dotObj *oneDModelR = new dotObj();
 	oneDModelR->initializeFromFile(oneDR);
 
 	//Right 1D
-	std::string oneDL = path + "skeletonLeftGenerated.obj";
+	std::string oneDL =   "skeletonLeftGenerated.obj";
 	dotObj *oneDModelL = new dotObj();
 	oneDModelL->initializeFromFile(oneDL);
 
-	sim->segmentTree2(*oneDModelL, *oneDModelR, *Reconstructed, path + "lungReconstructedSegmented", "full");
+	sim->segmentTree2(*oneDModelL, *oneDModelR, *Reconstructed,   "lungReconstructedSegmented", "full");
 	delete oneDModelR;
 	delete oneDModelL;
 	//delete recModel;
@@ -3588,18 +3590,18 @@ void simulation::extendBronchialTreeV2(
 	int density,
 	int poissonDepth,
 	std::string path,
-	dotObj * boundaryR,
-	dotObj * boundaryL,
-	dotObj * trachea,
-	dotObj * existingModel,
-	dotObj * existingCenterline,
-	status * stat,
+	dotObj* boundaryR,
+	dotObj* boundaryL,
+	dotObj* trachea,
+	dotObj* existingModel,
+	dotObj* existingCenterline,
+	status* stat,
 	bool verbose,
-	volume * volLeft = nullptr,
-	volume * volRight = nullptr
+	volume* volLeft = nullptr,
+	volume* volRight = nullptr
 ) {
-	std::cout << "Input desired depth of output 3D Model: ";
-	std::cin >> depth;
+	/*std::cout << "Input desired depth of output 3D Model: ";
+	std::cin >> depth;*/
 	bool initvols = buildVolumes;
 	bool initskeletonization = buildCenterline;
 	bool init1D = build1DModel;
@@ -3629,7 +3631,7 @@ void simulation::extendBronchialTreeV2(
 	//Depth
 	int tree3DDepth = depth; //Caution
 
-	int treeDepth = depth-1;
+	int treeDepth = depth - 1;
 	if (existingModel->vertices.size() > 0 && existingModel->faces.size() && existingModel->normals.size() > 0 &&
 		boundaryL->vertices.size() > 0 && boundaryL->faces.size() && boundaryL->normals.size() > 0 &&
 		boundaryR->vertices.size() > 0 && boundaryR->faces.size() && boundaryR->normals.size() > 0) {
@@ -3640,17 +3642,17 @@ void simulation::extendBronchialTreeV2(
 	}
 	stat->action = "Simulation :: Commencing";
 	std::cout << std::endl << "Simulation :: Commencing" << std::endl;
-	simulation *sim;
-	dotObj * skelLeftGen;
-	dotObj * skelLeftRight;
+	simulation* sim;
+	dotObj* skelLeftGen;
+	dotObj* skelLeftRight;
 	dotObj cachedModel, skel;
-	dotObj * hostR = new dotObj();
-	dotObj * hostL = new dotObj();
-	dotObj * recon = new dotObj();
-	dotObj * fullTree = new dotObj();
+	dotObj* hostR = new dotObj();
+	dotObj* hostL = new dotObj();
+	dotObj* recon = new dotObj();
+	dotObj* fullTree = new dotObj();
 	trachea = new dotObj;
-	dotObj * skeletonLeftGen = new dotObj();
-	dotObj * skeletonRightGen = new dotObj();
+	dotObj* skeletonLeftGen = new dotObj();
+	dotObj* skeletonRightGen = new dotObj();
 
 	//BUILD VOLUMES
 	if (buildVolumes) {
@@ -3678,24 +3680,24 @@ void simulation::extendBronchialTreeV2(
 		if (!useCenterLineInstead) {
 			cachedModel = *existingModel;
 			//cachedModel.smoothingSparse("taubin", "onoff", 2000, -0.95, 0.35);
-			//cachedModel.exportToFile(path + "smoothed");
+			//cachedModel.exportToFile(  "smoothed");
 			skel = cachedModel.mcfskel();
-			skel.exportToFile(path + "_1_skeletonRaw");
+			skel.exportToFile(  "_1_skeletonRaw");
 			skel.mcfskelRefineStepOne(8);
 			skel.mcfskelRefineStepOne(8);
 			skel.mcfskelRefineStepOne(8);
 			skel.mcfskelRefineStepTwo();
-			skel.exportToFile(path + "_2_skeletonRefined");
+			skel.exportToFile(  "_2_skeletonRefined");
 		}
 		else {
 			skel = *existingCenterline;
-			skel.exportToFile(path + "_1_skeletonRaw");
+			skel.exportToFile(  "_1_skeletonRaw");
 			skel.mcfskelRefineStepOne(8);
 			skel.mcfskelRefineStepOne(8);
 			skel.mcfskelRefineStepOne(8);
 			skel.mcfskelRefineStepTwo();
 			skel.mcfskelRefineStepTwo();
-			skel.exportToFile(path + "_2_skeletonRefined");
+			skel.exportToFile(  "_2_skeletonRefined");
 		}
 
 		/*
@@ -3750,8 +3752,8 @@ void simulation::extendBronchialTreeV2(
 
 		existingModel->mAnalysis.graph.ggraph2Model(recon);
 		existingModel->mAnalysis.graph.ggraph2ModelV(trachea);
-		recon->exportToFile(path + "_3_trachea_centerline");
-		trachea->exportToFile(path + "_4_trachea");
+		recon->exportToFile(  "_3_trachea_centerline");
+		trachea->exportToFile(  "_4_trachea");
 		delete(recon);
 
 		//existingModel->mAnalysis.parseTerminals = true;
@@ -3763,7 +3765,7 @@ void simulation::extendBronchialTreeV2(
 		rebuilt.init->nextBifurcationPtr[0]->nextNodesPtr[0]->nextMedianPtr->nextNodesPtr[0]->doStop = true;
 		rebuilt.init->nextBifurcationPtr[0]->nextNodesPtr[1]->nextMedianPtr->nextNodesPtr[0]->doStop = true;
 		rebuilt.ggraph2Model(recon);
-		recon->exportToFile(path + "_3_trachea_centerline");
+		recon->exportToFile(  "_3_trachea_centerline");
 		delete(recon);
 		*/
 
@@ -3795,7 +3797,7 @@ void simulation::extendBronchialTreeV2(
 			}
 		}
 		rebuilt.ggraph2Model(&skel2);
-		skel2.exportToFile(path + "_3b_nMod");
+		skel2.exportToFile(  "_3b_nMod");
 		existingModel->graphBasedAnalysis(skel2);
 		rebuilt = existingModel->mAnalysis.graph;
 		//skel2.graphBased1DModelAnalysis();
@@ -3805,7 +3807,7 @@ void simulation::extendBronchialTreeV2(
 
 		int genLim = 5;
 
-		gnode * g;
+		gnode* g;
 		//=============================================================
 
 		for (int i = 0; i < rebuilt.nodes.size(); i++) {
@@ -3824,9 +3826,9 @@ void simulation::extendBronchialTreeV2(
 		rebuilt.ggraph2Model(hostL, true);
 		hostL->mAnalysis.generateGraph(*hostL, 0);
 		hostL->mAnalysis.graph.init->diameter = g->diameter;
-		hostL->exportToFile(path + "_5_host_centerline_left");
+		hostL->exportToFile(  "_5_host_centerline_left");
 		//hostL->splitSkeletonEdges(0.8);
-		//hostL->exportToFile(path + "_5_host_centerline_left_oversampled");
+		//hostL->exportToFile(  "_5_host_centerline_left_oversampled");
 
 		//=============================================================
 		//rebuilt = skel2.mAnalysis.graph;
@@ -3848,14 +3850,14 @@ void simulation::extendBronchialTreeV2(
 		rebuilt.ggraph2Model(hostR, true);
 		hostR->mAnalysis.generateGraph(*hostR, 0);
 		hostR->mAnalysis.graph.init->diameter = g->diameter;
-		hostR->exportToFile(path + "_5_host_centerline_right");
+		hostR->exportToFile(  "_5_host_centerline_right");
 		//hostR->splitSkeletonEdges(0.8);
-		//hostR->exportToFile(path + "_5_host_centerline_right_oversampled");
+		//hostR->exportToFile(  "_5_host_centerline_right_oversampled");
 	}
 
 	//BUILD 1D
 
-	dotObj * fullTreeExtendedModel = new dotObj();
+	dotObj* fullTreeExtendedModel = new dotObj();
 	ggraph fullTreeExtendedGraph;
 	ggraph fullTreeGraph;
 
@@ -3865,24 +3867,24 @@ void simulation::extendBronchialTreeV2(
 		sim = new simulation();
 		sim->generate1DTree(treeDepth, *volLeft, *boundaryL, *hostL, *skeletonLeftGen);
 		//skeletonLeftGen->splitSkeletonEdges(0.5);
-		if (verbose) skeletonLeftGen->exportToFile(path + "_6_skeletonLeftGenerated");
+		if (verbose) skeletonLeftGen->exportToFile(  "_6_skeletonLeftGenerated");
 		delete sim;
 		sim = new simulation();
 		sim->generate1DTree(treeDepth, *volRight, *boundaryR, *hostR, *skeletonRightGen);
 		//skeletonRightGen->splitSkeletonEdges(0.5);
-		if (verbose) skeletonRightGen->exportToFile(path + "_6_skeletonRightGenerated");
+		if (verbose) skeletonRightGen->exportToFile(  "_6_skeletonRightGenerated");
 		delete sim;
 
 
 		//skeletonLeftGen->mAnalysis.generateGraph(*skeletonLeftGen, 0);
 
 		std::cout << "skeletonLeftGen->graphBased1DModelAnalysis();" << std::endl;
-		skeletonLeftGen->graphBased1DModelAnalysis(true, true,0);
+		skeletonLeftGen->graphBased1DModelAnalysis(true, true, 0);
 		skeletonLeftGen->mAnalysis.graph.init->diameter = hostL->mAnalysis.graph.init->diameter;
-		
+
 
 		std::cout << "skeletonRightGen->graphBased1DModelAnalysis();" << std::endl;
-		skeletonRightGen->graphBased1DModelAnalysis(true, true,0);
+		skeletonRightGen->graphBased1DModelAnalysis(true, true, 0);
 		skeletonRightGen->mAnalysis.graph.init->diameter = hostR->mAnalysis.graph.init->diameter;
 
 		//Full tree rebuilt
@@ -3891,12 +3893,12 @@ void simulation::extendBronchialTreeV2(
 		existingModel->graphBasedAnalysis(skel);
 
 		//skel.graphBased1DModelAnalysis(false);
-		//skel.mAnalysis.graph.exportGraphFeatures(path + "graph.csv");
+		//skel.mAnalysis.graph.exportGraphFeatures(  "graph.csv");
 
 		fullTreeGraph = existingModel->mAnalysis.graph;
 		fullTreeGraph.initializeDiameters();
 		fullTreeGraph.generateGraphFeaturesLRDiscrimination();
-		fullTreeGraph.exportGraphFeatures(path + "existingModel.json");
+		fullTreeGraph.exportGraphFeatures(  "existingModel.json");
 
 		if (fullTreeGraph.init->nextBifurcationPtr[0]->nextNodesPtr[0]->isLeft) {
 			fullTreeGraph.init->nextBifurcationPtr[0]->nextNodesPtr[0]->nextMedianPtr->nextNodesPtr[0] = skeletonLeftGen->mAnalysis.graph.init;
@@ -3933,8 +3935,8 @@ void simulation::extendBronchialTreeV2(
 		fullTreeGraph.generateGraphFeaturesLength("node");
 		fullTreeGraph.generateGraphFeaturesRatios();
 		fullTreeGraph.propagateGraphFeatures();
-		fullTreeGraph.exportGraphFeatures(path + "_7_fullTree.json");
-		
+		fullTreeGraph.exportGraphFeatures(  "_7_fullTree.json");
+
 		/*gnode * RU, RM, RL, LU, LL;
 		if (fullTreeGraph.init->nextBifurcationPtr[0]->nextBifurcationPtr[0]->isLeft) {
 		}
@@ -3944,32 +3946,32 @@ void simulation::extendBronchialTreeV2(
 		}else {
 		}
 
-		fullTreeGraph.exportGraphFeatures(path + "_7_fullTree_RU.json", fullTreeGraph.init->nextBifurcationPtr[0]);
-		fullTreeGraph.exportGraphFeatures(path + "_7_fullTree_RM.json");
-		fullTreeGraph.exportGraphFeatures(path + "_7_fullTree_RL.json");
-		fullTreeGraph.exportGraphFeatures(path + "_7_fullTree_LU.json");
-		fullTreeGraph.exportGraphFeatures(path + "_7_fullTree_LL.json");*/
+		fullTreeGraph.exportGraphFeatures(  "_7_fullTree_RU.json", fullTreeGraph.init->nextBifurcationPtr[0]);
+		fullTreeGraph.exportGraphFeatures(  "_7_fullTree_RM.json");
+		fullTreeGraph.exportGraphFeatures(  "_7_fullTree_RL.json");
+		fullTreeGraph.exportGraphFeatures(  "_7_fullTree_LU.json");
+		fullTreeGraph.exportGraphFeatures(  "_7_fullTree_LL.json");*/
 
-		//skeletonRightGen->mAnalysis.graph.exportGraphFeatures(path + "skeletonRightGen.csv");
-		//skeletonLeftGen->mAnalysis.graph.exportGraphFeatures(path + "skeletonLeftGen.csv");
+		//skeletonRightGen->mAnalysis.graph.exportGraphFeatures(  "skeletonRightGen.csv");
+		//skeletonLeftGen->mAnalysis.graph.exportGraphFeatures(  "skeletonLeftGen.csv");
 
-		dotObj * fullTreeModel = new dotObj();
+		dotObj* fullTreeModel = new dotObj();
 		fullTreeGraph.ggraph2Model(fullTreeModel);
-		fullTreeModel->exportToFile(path + "_7_fulltree");
+		fullTreeModel->exportToFile(  "_7_fulltree");
 
 		/*fullTreeModel->splitSkeletonEdges(0.5);
 		fullTreeModel->graphBased1DModelAnalysis(); //<==Horsfield & Strahler
 		fullTreeExtendedGraph = fullTreeModel->mAnalysis.graph;
-		fullTreeExtendedGraph.exportGraphFeatures(path + "_7_fullTreeOversampled.csv");
+		fullTreeExtendedGraph.exportGraphFeatures(  "_7_fullTreeOversampled.csv");
 		fullTreeExtendedGraph.ggraph2Model(fullTreeExtendedModel);
-		fullTreeExtendedModel->exportToFile(path + "_7_fullTreeOversampled");
+		fullTreeExtendedModel->exportToFile(  "_7_fullTreeOversampled");
 		dotObj * fullTreeModelColored = new dotObj();
 		fullTreeExtendedGraph.ggraph2ModelColorize(fullTreeModelColored);
-		fullTreeModelColored->exportToFileSegmentedPerLine("obj", path + "_7_fulltreeSegmented");*/
+		fullTreeModelColored->exportToFileSegmentedPerLine("obj",   "_7_fulltreeSegmented");*/
 	}
 
-	dotObj * treePCExpL = new dotObj();
-	dotObj * treePCExpR = new dotObj();
+	dotObj* treePCExpL = new dotObj();
+	dotObj* treePCExpR = new dotObj();
 
 	//BUILD 3D
 	if (buildPC) {
@@ -3982,12 +3984,12 @@ void simulation::extendBronchialTreeV2(
 		sim->generate3DPointCloudFromTree(tree3DDepth, density, 0.5, *skeletonRightGen, *hostR, *treePCExpR, "Right", true);
 		delete sim;*/
 
-		dotObj * solid = new dotObj();
+		dotObj* solid = new dotObj();
 		sim = new simulation();
 		sim->generate3DPointCloudFromGraph(tree3DDepth, density, 0.5, &fullTreeGraph, solid);
 		delete sim;
-		solid->exportToFile(path + "_8_fulltree");
-		solid->exportToXYZ(path + "lungPCRec");
+		solid->exportToFile(  "_8_fulltree");
+		solid->exportToXYZ(  "lungPCRec");
 	}
 
 	//BUILD PLY FILE
@@ -4002,15 +4004,15 @@ void simulation::extendBronchialTreeV2(
 			rebuilt.init->nextBifurcationPtr[0]->nextNodesPtr[0]->nextMedianPtr->nextNodesPtr[0] = skeletonRightGen->mAnalysis.graph.init;
 			rebuilt.init->nextBifurcationPtr[0]->nextNodesPtr[1]->nextMedianPtr->nextNodesPtr[0] = skeletonLeftGen->mAnalysis.graph.init;
 		}
-		treePCExpR->exportToXYZ(path + "lungPCRec", true);
-		treePCExpL->exportToXYZ(path + "lungPCRec", false);
-		trachea->exportToXYZ(path + "lungPCRec", false);*/
+		treePCExpR->exportToXYZ(  "lungPCRec", true);
+		treePCExpL->exportToXYZ(  "lungPCRec", false);
+		trachea->exportToXYZ(  "lungPCRec", false);*/
 	}
 
 	//Calculation of normals and smoothing
 	/*if (false){
 	std::cout << "Calculating normals" << std::endl;
-	std::string strname = path + "lungPCRec.xyz";
+	std::string strname =   "lungPCRec.xyz";
 	const char* fname = strname.c_str();
 	// Reads a .xyz point set file in points[].
 	std::vector<PointEx> pointsL;
@@ -4038,7 +4040,7 @@ void simulation::extendBronchialTreeV2(
 	max_iter_number,
 	require_uniform_sampling
 	);
-	std::ofstream out(path + "WLOP_lungPCRec.xyz");
+	std::ofstream out(  "WLOP_lungPCRec.xyz");
 	if (!out || !CGAL::write_xyz_points(
 	out, output.begin(), output.end()))
 	{
@@ -4049,7 +4051,7 @@ void simulation::extendBronchialTreeV2(
 	if (buildNormals) {
 		stat->action = "Calculating normals";
 		std::cout << "Calculating normals" << std::endl;
-		std::string strname = path + "lungPCRec.xyz";
+		std::string strname =   "lungPCRec.xyz";
 		const char* fname = strname.c_str();
 		std::vector<PointEx> pointsL;
 		std::ifstream stream(fname);
@@ -4171,26 +4173,26 @@ void simulation::extendBronchialTreeV2(
 		}
 	}
 
-	dotObj * mMOdel = new dotObj;
+	dotObj* mMOdel = new dotObj;
 
 	if (build3D)
 	{
 		stat->action = "Poisson Recontruction Commencing";
 		std::cout << "Poisson Recontruction Commencing" << std::endl;
-		//PoissonRecon(path + "lungPCSmoothed.ply", path + "lungPC.screened.ply",poissonDepth->value());
+		//PoissonRecon(  "lungPCSmoothed.ply",   "lungPC.screened.ply",poissonDepth->value());
 		SSDRecon("lungPCSmoothed.ply", "lungPC.screened.ply", poissonDepth, mMOdel);
-		//poissonRec(path + "lungPCSmoothed.xyz", path + "lungPCscreened.off");
-		//isotropicRemesh(path + "lungPCscreened.off", path + "lungPCscreenedIso.off");
+		//poissonRec(  "lungPCSmoothed.xyz",   "lungPCscreened.off");
+		//isotropicRemesh(  "lungPCscreened.off",   "lungPCscreenedIso.off");
 		std::cout << "Poisson Recontruction Complete" << std::endl;
 		mMOdel->recalculateNormals();
 
-		mMOdel->exportToFile(path + "_9_fullReconstructedModel");
+		mMOdel->exportToFile(  "_9_fullReconstructedModel");
 
 		mMOdel->simplificationEdgeCollapse(1600000);
 
 		mMOdel->recalculateNormals();
 
-		mMOdel->exportToFile(path + "_9_simplifiedModel");
+		mMOdel->exportToFile(  "_9_simplifiedModel");
 
 		//if (lungmodel.size() > 0)lungmodel.back() = *mMOdel;
 
@@ -4201,7 +4203,7 @@ void simulation::extendBronchialTreeV2(
 	namespace params = PMP::parameters;
 
 	dotObj* cubef = new dotObj();
-	cubef->initializeFromFile(path + "cubef.obj");
+	cubef->initializeFromFile(  "cubef.obj");
 
 	std::stringstream modelmeshStream;
 
@@ -4212,7 +4214,7 @@ void simulation::extendBronchialTreeV2(
 		bool valid_union = true;
 		for (int i = 0; i < mMOdel->mAnalysis.graph.nodes.size(); i++) {
 			if (mMOdel->mAnalysis.graph.nodes[i].isTerminal) {
-				dotObj * newcube = new dotObj();
+				dotObj* newcube = new dotObj();
 				*newcube = *cubef;
 				Vector3f direction = mMOdel->mAnalysis.graph.nodes[i].previousNodePtr->position - mMOdel->mAnalysis.graph.nodes[i].position;
 				float d = 2 * mMOdel->mAnalysis.graph.nodes[i].diameter;
@@ -4220,7 +4222,7 @@ void simulation::extendBronchialTreeV2(
 					newcube->scale(d, d, d);
 					newcube->rotate(direction);
 					direction.normalize();
-					Vector3f translatePosition = (mMOdel->mAnalysis.graph.nodes[i].position - 0.7*d*direction);
+					Vector3f translatePosition = (mMOdel->mAnalysis.graph.nodes[i].position - 0.7 * d * direction);
 					newcube->translate(translatePosition);
 					std::stringstream input = newcube->toOFF();
 					if (input) {
@@ -4233,7 +4235,7 @@ void simulation::extendBronchialTreeV2(
 				}
 			}
 			if (mMOdel->mAnalysis.graph.nodes[i].isInlet) {
-				dotObj * newcube = new dotObj();
+				dotObj* newcube = new dotObj();
 				*newcube = *cubef;
 				Vector3f direction = mMOdel->mAnalysis.graph.nodes[i].nextNodesPtr[0]->position - mMOdel->mAnalysis.graph.nodes[i].position;
 				float d = 2 * mMOdel->mAnalysis.graph.nodes[i].nextNodesPtr[0]->diameter;
@@ -4241,7 +4243,7 @@ void simulation::extendBronchialTreeV2(
 					newcube->scale(d, d, d);
 					newcube->rotate(direction);
 					direction.normalize();
-					Vector3f translatePosition = (mMOdel->mAnalysis.graph.nodes[i].position - 0.7*d*direction);
+					Vector3f translatePosition = (mMOdel->mAnalysis.graph.nodes[i].position - 0.7 * d * direction);
 					newcube->translate(translatePosition);
 					std::stringstream input = newcube->toOFF();
 					if (input) {
@@ -4257,7 +4259,7 @@ void simulation::extendBronchialTreeV2(
 		if (valid_union)
 		{
 			std::cout << "Union was successfully computed\n";
-			std::ofstream output(path + "union.off");
+			std::ofstream output(  "union.off");
 			output << out;
 
 			std::cout << "mMOdel->toOFF()" << std::endl;
@@ -4284,7 +4286,7 @@ void simulation::extendBronchialTreeV2(
 			if (valid_difference)
 			{
 				std::cout << "Difference was successfully computed\n";
-				std::ofstream output1(path + "difference.off");
+				std::ofstream output1(  "difference.off");
 				output1 << modelmesh;
 			}
 			else {
@@ -4331,13 +4333,13 @@ void simulation::extendBronchialTreeV2(
 
 	if (segmentModel) {
 		std::string type = "OFF";
-		dotObj * Reconstructed = new dotObj();
+		dotObj* Reconstructed = new dotObj();
 
 		Reconstructed->initializeFromFile(modelmeshStream, type);
 		Reconstructed->recalculateNormals();
 		Reconstructed->segmentationMode = "NORMALS";
 		Reconstructed->segmentByGeneration(*fullTreeExtendedModel);
-		Reconstructed->exportToFileSegmentedPerFace(path + "final_segmented_model_2.obj");
+		Reconstructed->exportToFileSegmentedPerFace(  "final_segmented_model_2.obj");
 		*existingModel = *Reconstructed;
 	}
 
@@ -4353,27 +4355,27 @@ void simulation::extendBronchialTreeV2(
 	std::cout << "Segmentation" << std::endl;
 	//Reconstructed
 	dotObj * Reconstructed = new dotObj();
-	Reconstructed->initializeFromPLY(path + "lungPC.screened.ply");
+	Reconstructed->initializeFromPLY(  "lungPC.screened.ply");
 	std::cout << "Recalculate normals" << std::endl;
 	Reconstructed->recalculateNormals();
-	Reconstructed->exportToFile(path + "lungReconstructed");
+	Reconstructed->exportToFile(  "lungReconstructed");
 	Reconstructed->smoothingSparse("taubin", "weighted", 100, -0.7, 0.55);
 	//Reconstructed->smoothingSparse("taubin", "weighted", 200, -0.7, 0.5);
 	std::cout << "Recalculate normals" << std::endl;
 	Reconstructed->recalculateNormals();
-	Reconstructed->exportToFile(path + "lungReconstructedSmooth");
+	Reconstructed->exportToFile(  "lungReconstructedSmooth");
 
 	//Left 1D
-	std::string oneDR = path + "skeletonRightGenerated.obj";
+	std::string oneDR =   "skeletonRightGenerated.obj";
 	dotObj *oneDModelR = new dotObj();
 	oneDModelR->initializeFromFile(oneDR);
 
 	//Right 1D
-	std::string oneDL = path + "skeletonLeftGenerated.obj";
+	std::string oneDL =   "skeletonLeftGenerated.obj";
 	dotObj *oneDModelL = new dotObj();
 	oneDModelL->initializeFromFile(oneDL);
 
-	sim->flatten(*oneDModelL, *oneDModelR, *Reconstructed, path + "lungReconstructedFlattened", "obj");
+	sim->flatten(*oneDModelL, *oneDModelR, *Reconstructed,   "lungReconstructedFlattened", "obj");
 
 	delete oneDModelR;
 	delete oneDModelL;
@@ -4387,19 +4389,19 @@ void simulation::extendBronchialTreeV2(
 	std::cout << "Segmentation" << std::endl;
 	//Reconstructed
 	dotObj * Reconstructed = new dotObj();
-	//Reconstructed->initializeFromFile(path + "lungReconstructedFlattened.obj");
-	Reconstructed->initializeFromFile(path + "lungReconstructedSmooth.obj");
+	//Reconstructed->initializeFromFile(  "lungReconstructedFlattened.obj");
+	Reconstructed->initializeFromFile(  "lungReconstructedSmooth.obj");
 	//Left 1D
-	std::string oneDR = path + "skeletonRightGenerated.obj";
+	std::string oneDR =   "skeletonRightGenerated.obj";
 	dotObj *oneDModelR = new dotObj();
 	oneDModelR->initializeFromFile(oneDR);
 
 	//Right 1D
-	std::string oneDL = path + "skeletonLeftGenerated.obj";
+	std::string oneDL =   "skeletonLeftGenerated.obj";
 	dotObj *oneDModelL = new dotObj();
 	oneDModelL->initializeFromFile(oneDL);
 
-	sim->segmentTree2(*oneDModelL, *oneDModelR, *Reconstructed, path + "lungReconstructedSegmented", "full");
+	sim->segmentTree2(*oneDModelL, *oneDModelR, *Reconstructed,   "lungReconstructedSegmented", "full");
 	delete oneDModelR;
 	delete oneDModelL;
 	//delete recModel;
